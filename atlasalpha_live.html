@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Alpha | Beating the Market</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0A192F',
+                        'electric-green': '#00FF41',
+                    },
+                    animation: {
+                        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0A192F;
+            --green: #00FF41;
+            --green-dim: rgba(0,255,65,0.15);
+            --green-glow: rgba(0,255,65,0.4);
+        }
+        body { font-family: 'Space Grotesk', sans-serif; background-color: var(--navy); color: #e2e8f0; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        /* Smooth Scrolling Ticker Animation */
+        @keyframes infinite-scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        
+        /* Glow Effect */
+        .btn-glow { box-shadow: 0 0 15px rgba(0, 255, 65, 0.4); }
+        .btn-glow:hover { box-shadow: 0 0 25px rgba(0, 255, 65, 0.6); }
+
+        /* Grid background */
+        .grid-bg {
+            background-image: radial-gradient(rgba(0,255,65,0.07) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            backdrop-filter: blur(8px);
+        }
+        .card:hover { border-color: rgba(0,255,65,0.2); transition: border-color 0.3s; }
+
+        /* Confidence bar */
+        .conf-track { background: rgba(255,255,255,0.06); border-radius: 99px; height: 10px; overflow: hidden; }
+        .conf-fill {
+            height: 100%;
+            border-radius: 99px;
+            background: linear-gradient(90deg, #00c853, #00FF41);
+            box-shadow: 0 0 8px rgba(0,255,65,0.5);
+            transition: width 1s cubic-bezier(.4,0,.2,1);
+        }
+
+        /* Action badge */
+        .badge-buy { background: rgba(0,255,65,0.15); color: #00FF41; border: 1px solid rgba(0,255,65,0.3); }
+        .badge-hold { background: rgba(250,204,21,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+        .badge-strong { background: rgba(0,255,65,0.2); color: #00FF41; border: 1px solid rgba(0,255,65,0.4); }
+
+        /* Category pills */
+        .pill-core    { background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.3); }
+        .pill-growth  { background: rgba(0,255,65,0.12); color: #00FF41; border: 1px solid rgba(0,255,65,0.25); }
+        .pill-moon    { background: rgba(168,85,247,0.15); color: #c084fc; border: 1px solid rgba(192,132,252,0.3); }
+        .pill-value   { background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+
+        /* Thesis card expand */
+        details summary { cursor: pointer; list-style: none; }
+        details summary::-webkit-details-marker { display: none; }
+        details[open] .chevron { transform: rotate(180deg); }
+        .chevron { transition: transform 0.2s; }
+
+        /* Stat number pulse */
+        @keyframes fadeUp { from { opacity:0; transform: translateY(10px);} to {opacity:1; transform:translateY(0);} }
+        .stat-num { animation: fadeUp 0.6s ease both; }
+
+        /* Donut chart container */
+        .donut-wrap { position: relative; }
+        .donut-center {
+            position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center; pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-navy text-slate-200 flex flex-col min-h-screen">
+
+    <!-- NAV BAR -->
+    <nav class="w-full flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="flex items-center gap-2 text-2xl font-bold tracking-tighter uppercase text-white">
+            <span>🌐</span> 
+            <span>Atlas <span class="text-electric-green">Alpha</span></span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#features" class="hover:text-electric-green transition">Features</a>
+            <a href="#dashboard" class="hover:text-electric-green transition">Live Feed</a>
+            <a href="#" class="btn-glow px-5 py-2 rounded-lg transition" style="background:var(--green); color:var(--navy)">Member Login</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="text-white py-24 px-6 text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#00FF41 1px, transparent 1px); background-size: 40px 40px;"></div>
+        
+        <div class="relative max-w-4xl mx-auto z-10">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Atlas <span class="text-electric-green italic underline decoration-4 decoration-electric-green/30">Beating</span> the Market.
+            </h1>
+            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Institutional-grade stock analysis and high-conviction picks designed for those who demand excess return.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="bg-electric-green text-navy font-bold px-8 py-4 rounded-full text-lg hover:scale-105 transition btn-glow">
+                    Get Alpha Now
+                </button>
+                <a href="#dashboard" class="border border-slate-500 px-8 py-4 rounded-full text-lg hover:bg-white hover:text-navy transition cursor-pointer">
+                    View Live Dashboard
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SIGNAL DASHBOARD -->
+    <div id="dashboard" class="w-full border-t border-slate-800 pt-16">
+        
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Live Signal Feed</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">Transparency is our moat. High-conviction picks ranked by confidence. Tickers masked for non-members.</p>
+        </div>
+
+        <!-- STATS ROW -->
+        <div class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Open Signals</p>
+                <p id="open-signals-display" class="text-3xl font-bold stat-num" style="color:var(--green)">-</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Win Rate</p>
+                <p id="win-rate-display" class="text-3xl font-bold stat-num" style="color:var(--green)">0%</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Categories</p>
+                <p class="text-3xl font-bold stat-num text-white">4</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Status</p>
+                <p class="text-2xl font-bold stat-num mt-1" style="color:var(--green)">LIVE</p>
+            </div>
+        </div>
+
+        <!-- THESIS CARDS -->
+        <div class="max-w-7xl mx-auto px-6 pb-16">
+            <h2 class="text-2xl font-bold mb-2 text-white">Signal Thesis Feed</h2>
+            <p class="text-slate-500 text-sm mono mb-8">Latest analysis for each open signal (Automatically synced with Atlas AI Engine)</p>
+
+            <div id="signals-container" class="grid md:grid-cols-2 gap-5">
+                <!-- Data will be injected here via Javascript -->
+                <div class="card p-6 text-center text-slate-400">
+                    Loading live signals from the Atlas engine...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-8 text-xs text-slate-500 mono bg-slate-900 border-t border-slate-800">
+        <p>© 2026 Atlas Alpha. All rights reserved.</p>
+        <p class="mt-1 opacity-60">General Advice Warning: Trading involves risk. Past performance is not indicative of future results.</p>
+    </footer>
+
+    <!-- ATLAS ALPHA LIVE CONNECTION SCRIPT -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // The Google Apps Script Webhook URL you generated
+        const webhookUrl = "https://script.google.com/macros/s/AKfycbwduupbK9co0SSHoSAVkRcRlNU_mlxFyjQMcVfRXJ11Dam8xd12ZQUj2TtGFaizr6S2xA/exec";
+
+        fetch(webhookUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Update stats
+                const winRateEl = document.getElementById("win-rate-display");
+                if (winRateEl) winRateEl.innerText = data.win_rate;
+                
+                const openSignalsEl = document.getElementById("open-signals-display");
+                if (openSignalsEl && data.picks) openSignalsEl.innerText = data.picks.length;
+
+                // Render the Picks
+                const container = document.getElementById("signals-container"); 
+                if (!container) return;
+                
+                container.innerHTML = ""; // Clear the loading text
+                
+                if (!data.picks || data.picks.length === 0) {
+                    container.innerHTML = `<div class="card p-6 text-center text-slate-400">No open signals currently available. The Atlas engine is hunting.</div>`;
+                    return;
+                }
+
+                data.picks.forEach(pick => {
+                    const cardHTML = `
+                    <details class="card p-6 group" open>
+                        <summary class="flex justify-between items-start gap-4">
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 flex-wrap mb-2">
+                                    <span class="font-bold text-white">${pick.masked_name || '🔒 Masked Ticker'}</span>
+                                    <span class="pill-core text-xs px-2 py-0.5 rounded-full">${pick.category || 'Core'}</span>
+                                </div>
+                                <p class="mono text-xs text-slate-500">Entry: ${pick.entry || 'TBD'}</p>
+                            </div>
+                            <div class="flex flex-col items-end gap-1 shrink-0">
+                                <span class="mono font-bold text-lg" style="color:var(--green)">${pick.confidence || '90%'}</span>
+                                <svg class="chevron w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                            </div>
+                        </summary>
+                        <div class="mt-5 pt-5" style="border-top:1px solid rgba(255,255,255,0.06)">
+                            <div class="mb-4">
+                                <p class="text-xs mono text-slate-500 uppercase tracking-wider mb-1">Thesis</p>
+                                <p class="text-slate-300 text-sm leading-relaxed">${pick.thesis || 'Catalyst pending.'}</p>
+                            </div>
+                            <div class="p-3 rounded-lg" style="background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.15)">
+                                <p class="text-xs mono text-red-400 uppercase tracking-wider mb-1">⚠ Invalidation</p>
+                                <p class="text-sm text-red-300">${pick.invalidation_text || 'Strict stop loss applied.'}</p>
+                            </div>
+                        </div>
+                    </details>`;
+                    container.innerHTML += cardHTML;
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching Atlas Alpha signals:", error);
+                const container = document.getElementById("signals-container"); 
+                if (container) container.innerHTML = `<div class="card p-6 text-center text-slate-400">Unable to load live signals at this time. Retrying connection to Atlas core...</div>`;
+            });
+    });
+    </script>
+</body>
+</html>

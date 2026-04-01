@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Alpha | Beating the Market</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0A192F',
+                        'electric-green': '#00FF41',
+                    },
+                    animation: {
+                        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0A192F;
+            --green: #00FF41;
+            --green-dim: rgba(0,255,65,0.15);
+            --green-glow: rgba(0,255,65,0.4);
+        }
+        body { font-family: 'Space Grotesk', sans-serif; background-color: var(--navy); color: #e2e8f0; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        /* Smooth Scrolling Ticker Animation */
+        @keyframes infinite-scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        
+        /* Glow Effect */
+        .btn-glow { box-shadow: 0 0 15px rgba(0, 255, 65, 0.4); }
+        .btn-glow:hover { box-shadow: 0 0 25px rgba(0, 255, 65, 0.6); }
+
+        /* Grid background */
+        .grid-bg {
+            background-image: radial-gradient(rgba(0,255,65,0.07) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            backdrop-filter: blur(8px);
+        }
+        .card:hover { border-color: rgba(0,255,65,0.2); transition: border-color 0.3s; }
+
+        /* Confidence bar */
+        .conf-track { background: rgba(255,255,255,0.06); border-radius: 99px; height: 10px; overflow: hidden; }
+        .conf-fill {
+            height: 100%;
+            border-radius: 99px;
+            background: linear-gradient(90deg, #00c853, #00FF41);
+            box-shadow: 0 0 8px rgba(0,255,65,0.5);
+            transition: width 1s cubic-bezier(.4,0,.2,1);
+        }
+
+        /* Action badge */
+        .badge-buy { background: rgba(0,255,65,0.15); color: #00FF41; border: 1px solid rgba(0,255,65,0.3); }
+        .badge-hold { background: rgba(250,204,21,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+        .badge-strong { background: rgba(0,255,65,0.2); color: #00FF41; border: 1px solid rgba(0,255,65,0.4); }
+
+        /* Category pills */
+        .pill-core    { background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.3); }
+        .pill-growth  { background: rgba(0,255,65,0.12); color: #00FF41; border: 1px solid rgba(0,255,65,0.25); }
+        .pill-moon    { background: rgba(168,85,247,0.15); color: #c084fc; border: 1px solid rgba(192,132,252,0.3); }
+        .pill-value   { background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+
+        /* Thesis card expand */
+        details summary { cursor: pointer; list-style: none; }
+        details summary::-webkit-details-marker { display: none; }
+        details[open] .chevron { transform: rotate(180deg); }
+        .chevron { transition: transform 0.2s; }
+
+        /* Stat number pulse */
+        @keyframes fadeUp { from { opacity:0; transform: translateY(10px);} to {opacity:1; transform:translateY(0);} }
+        .stat-num { animation: fadeUp 0.6s ease both; }
+
+        /* Donut chart container */
+        .donut-wrap { position: relative; }
+        .donut-center {
+            position: absolute top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center; pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-navy text-slate-200 flex flex-col min-h-screen">
+
+    <!-- NAV BAR -->
+    <nav class="w-full flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <div class="flex items-center gap-2 text-2xl font-bold tracking-tighter uppercase text-white">
+            <span>🌐</span> 
+            <span>Atlas <span class="text-electric-green">Alpha</span></span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#features" class="hover:text-electric-green transition">Features</a>
+            <a href="#dashboard" class="hover:text-electric-green transition">Live Feed</a>
+            <a href="#" class="btn-glow px-5 py-2 rounded-lg transition" style="background:var(--green); color:var(--navy)">Member Login</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="text-white py-24 px-6 text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#00FF41 1px, transparent 1px); background-size: 40px 40px;"></div>
+        
+        <div class="relative max-w-4xl mx-auto z-10">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Atlas <span class="text-electric-green italic underline decoration-4 decoration-electric-green/30">Beating</span> the Market.
+            </h1>
+            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Institutional-grade stock analysis and high-conviction picks designed for those who demand excess return.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="bg-electric-green text-navy font-bold px-8 py-4 rounded-full text-lg hover:scale-105 transition btn-glow">
+                    Get Alpha Now
+                </button>
+                <a href="#dashboard" class="border border-slate-500 px-8 py-4 rounded-full text-lg hover:bg-white hover:text-navy transition cursor-pointer">
+                    View Live Dashboard
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TICKER TAPE -->
+    <div class="overflow-hidden py-4" style="border-y:1px solid rgba(255,255,255,0.06); background:rgba(0,0,0,0.2)">
+        <div class="flex whitespace-nowrap animate-infinite-scroll hover:paused">
+            <div class="flex space-x-12 mono text-sm uppercase tracking-widest font-bold text-slate-400 px-6">
+                <span>AAPL <span class="text-green-500">+1.2%</span></span>
+                <span>TSLA <span class="text-red-500">-0.5%</span></span>
+                <span>NVDA <span class="text-green-500">+3.1%</span></span>
+                <span>ZETA <span class="text-navy bg-electric-green px-1 rounded">+13.5%</span></span> 
+                <span>BTC <span class="text-green-500">+4.0%</span></span>
+                <span>AMD <span class="text-green-500">+8.6%</span></span>
+                <span>SPY <span class="text-slate-500">+0.8%</span></span>
+            </div>
+            <div class="flex space-x-12 mono text-sm uppercase tracking-widest font-bold text-slate-400 px-6">
+                <span>AAPL <span class="text-green-500">+1.2%</span></span>
+                <span>TSLA <span class="text-red-500">-0.5%</span></span>
+                <span>NVDA <span class="text-green-500">+3.1%</span></span>
+                <span>ZETA <span class="text-navy bg-electric-green px-1 rounded">+13.5%</span></span>
+                <span>BTC <span class="text-green-500">+4.0%</span></span>
+                <span>AMD <span class="text-green-500">+8.6%</span></span>
+                <span>SPY <span class="text-slate-500">+0.8%</span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Why Atlas Alpha?</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">We don't just give you tickers. We give you the invalidation thesis so you know exactly when to exit.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="card p-8 hover:-translate-y-1 transition duration-300">
+                <div class="text-4xl mb-6 bg-slate-800 w-16 h-16 flex items-center justify-center rounded-xl shadow-sm border border-slate-700">📈</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Alpha-Focused Picks</h3>
+                <p class="text-slate-400 leading-relaxed">We don't track the index. We hunt for volume anomalies and catalysts that signal a breakout.</p>
+            </div>
+            <div class="card p-8 hover:-translate-y-1 transition duration-300">
+                <div class="text-4xl mb-6 bg-slate-800 w-16 h-16 flex items-center justify-center rounded-xl shadow-sm border border-slate-700">🌐</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Global Macro Strategy</h3>
+                <p class="text-slate-400 leading-relaxed">Connecting the dots between geopolitics, interest rates, and your portfolio to find safety.</p>
+            </div>
+            <div class="card p-8 hover:-translate-y-1 transition duration-300">
+                <div class="text-4xl mb-6 bg-slate-800 w-16 h-16 flex items-center justify-center rounded-xl shadow-sm border border-slate-700">⚡</div>
+                <h3 class="text-xl font-bold mb-3 text-white">Real-Time Alerts</h3>
+                <p class="text-slate-400 leading-relaxed">Get entry and exit strategies delivered to your inbox and phone before the bell rings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="bg-navy py-24 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">How Atlas Alpha Works</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">We cut through the noise of financial media to find the data that actually moves markets.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-12 relative">
+                <!-- Connecting Line (Desktop only) -->
+                <div class="hidden md:block absolute top-12 left-[16.66%] right-[16.66%] h-0.5 bg-slate-800 z-0"></div>
+                
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-slate-900 border border-electric-green/30 rounded-full flex items-center justify-center text-3xl font-bold text-electric-green mb-6 shadow-[0_0_15px_rgba(0,255,65,0.15)]">1</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">The Macro Scan</h3>
+                    <p class="text-slate-400">Our AI engine, Atlas, scans over 5,000 global tickers daily, hunting for volume anomalies and institutional liquidity shifts before the crowd notices.</p>
+                </div>
+                
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-slate-900 border border-electric-green/30 rounded-full flex items-center justify-center text-3xl font-bold text-electric-green mb-6 shadow-[0_0_15px_rgba(0,255,65,0.15)]">2</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Catalyst Validation</h3>
+                    <p class="text-slate-400">A volume spike isn't enough. We cross-reference every technical breakout against real-world catalysts—earnings beats, defense contracts, or macro shifts.</p>
+                </div>
+                
+                <div class="relative z-10 text-center">
+                    <div class="w-24 h-24 mx-auto bg-slate-900 border border-electric-green/30 rounded-full flex items-center justify-center text-3xl font-bold text-electric-green mb-6 shadow-[0_0_15px_rgba(0,255,65,0.15)]">3</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">The Invalidation Thesis</h3>
+                    <p class="text-slate-400">We tell you exactly when to buy, and more importantly, exactly when the trade is dead. Never hold a losing bag because you didn't know when to exit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TARGET MARKET CALLOUT -->
+    <section class="bg-electric-green text-navy py-16 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 tracking-tight">Built for the Underserved Middle.</h2>
+            <p class="text-lg md:text-xl font-medium opacity-90">
+                You have a $15k – $150k portfolio. You are too small for private wealth management, but too sophisticated to just "buy the index and wait 30 years." You need professional-grade signal filtering to generate excess return. That is what we do.
+            </p>
+        </div>
+    </section>
+
+    <!-- NEW SIGNAL DASHBOARD -->
+    <div id="dashboard" class="w-full border-t border-slate-800 pt-16">
+        
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Live Signal Feed</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">Transparency is our moat. High-conviction picks ranked by confidence. Tickers masked for non-members.</p>
+        </div>
+
+        <!-- STATS ROW -->
+        <div class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Open Signals</p>
+                <p class="text-3xl font-bold stat-num" style="color:var(--green)">4</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Avg Confidence</p>
+                <p class="text-3xl font-bold stat-num" style="color:var(--green)">88%</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Categories</p>
+                <p class="text-3xl font-bold stat-num text-white">4</p>
+            </div>
+            <div class="card p-5">
+                <p class="text-xs text-slate-500 uppercase tracking-widest mono mb-1">Top Conviction</p>
+                <p class="text-3xl font-bold stat-num" style="color:var(--green)">95%</p>
+            </div>
+        </div>
+
+        <!-- MAIN CHARTS -->
+        <div class="max-w-7xl mx-auto px-6 pb-8 grid md:grid-cols-3 gap-6">
+            <!-- Confidence Bar Chart (spans 2 cols) -->
+            <div class="card p-6 md:col-span-2">
+                <h2 class="text-lg font-bold mb-1 text-white">Confidence by Signal</h2>
+                <p class="text-xs text-slate-500 mono mb-6">Ranked by conviction score</p>
+                <div class="space-y-5">
+                    <!-- AMD -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-semibold text-white">🔒 Semiconductor AI Infrastructure</span>
+                                <span class="pill-core text-xs px-2 py-0.5 rounded-full font-medium">Core</span>
+                            </div>
+                            <span class="mono text-sm font-bold" style="color:var(--green)">95%</span>
+                        </div>
+                        <div class="conf-track"><div class="conf-fill" style="width:95%"></div></div>
+                    </div>
+                    <!-- IONQ -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-semibold text-white">🔒 Quantum Computing Speculative</span>
+                                <span class="pill-moon text-xs px-2 py-0.5 rounded-full font-medium">Moonshot</span>
+                            </div>
+                            <span class="mono text-sm font-bold" style="color:#c084fc">90%</span>
+                        </div>
+                        <div class="conf-track"><div class="conf-fill" style="width:90%; background: linear-gradient(90deg,#7c3aed,#c084fc); box-shadow:0 0 8px rgba(192,132,252,0.5)"></div></div>
+                    </div>
+                    <!-- ZETA -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-semibold text-white">🔒 High-Growth AI Marketing</span>
+                                <span class="pill-growth text-xs px-2 py-0.5 rounded-full font-medium">Growth</span>
+                            </div>
+                            <span class="mono text-sm font-bold" style="color:var(--green)">85%</span>
+                        </div>
+                        <div class="conf-track"><div class="conf-fill" style="width:85%"></div></div>
+                    </div>
+                    <!-- SOFI -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-semibold text-white">🔒 Fintech Turnaround</span>
+                                <span class="pill-value text-xs px-2 py-0.5 rounded-full font-medium">Value/Growth</span>
+                            </div>
+                            <span class="mono text-sm font-bold" style="color:#fbbf24">82%</span>
+                        </div>
+                        <div class="conf-track"><div class="conf-fill" style="width:82%; background:linear-gradient(90deg,#b45309,#fbbf24); box-shadow:0 0 8px rgba(251,191,36,0.4)"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donut Chart -->
+            <div class="card p-6 flex flex-col">
+                <h2 class="text-lg font-bold mb-1 text-white">Portfolio Breakdown</h2>
+                <p class="text-xs text-slate-500 mono mb-4">Signals by category</p>
+                <div class="donut-wrap flex-1 flex items-center justify-center" style="min-height:200px">
+                    <canvas id="donutChart" width="220" height="220"></canvas>
+                    <div class="donut-center">
+                        <p class="text-2xl font-bold text-white">4</p>
+                        <p class="text-xs text-slate-500 mono">signals</p>
+                    </div>
+                </div>
+                <!-- Legend -->
+                <div class="mt-4 space-y-2">
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="flex items-center gap-2 text-slate-300"><span class="w-2.5 h-2.5 rounded-full inline-block" style="background:#60a5fa"></span>Core</span>
+                        <span class="mono text-slate-500">25%</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="flex items-center gap-2 text-slate-300"><span class="w-2.5 h-2.5 rounded-full inline-block" style="background:#00FF41"></span>Growth</span>
+                        <span class="mono text-slate-500">25%</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="flex items-center gap-2 text-slate-300"><span class="w-2.5 h-2.5 rounded-full inline-block" style="background:#c084fc"></span>Moonshot</span>
+                        <span class="mono text-slate-500">25%</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="flex items-center gap-2 text-slate-300"><span class="w-2.5 h-2.5 rounded-full inline-block" style="background:#fbbf24"></span>Value/Growth</span>
+                        <span class="mono text-slate-500">25%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THESIS CARDS -->
+        <div class="max-w-7xl mx-auto px-6 pb-16">
+            <h2 class="text-2xl font-bold mb-2 text-white">Signal Thesis Feed</h2>
+            <p class="text-slate-500 text-sm mono mb-8">Latest analysis for each open signal</p>
+
+            <div class="grid md:grid-cols-2 gap-5">
+                <!-- AMD -->
+                <details class="card p-6 group" open>
+                    <summary class="flex justify-between items-start gap-4">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-2 flex-wrap mb-2">
+                                <span class="font-bold text-white">🔒 Semiconductor AI Infrastructure</span>
+                                <span class="pill-core text-xs px-2 py-0.5 rounded-full">Core</span>
+                                <span class="badge-strong text-xs px-2 py-0.5 rounded-full mono font-bold">STRONG BUY</span>
+                            </div>
+                            <p class="mono text-xs text-slate-500">Entry: $213.84 · Catalyst: Meta Partnership Confirmation</p>
+                        </div>
+                        <div class="flex flex-col items-end gap-1 shrink-0">
+                            <span class="mono font-bold text-lg" style="color:var(--green)">95%</span>
+                            <svg class="chevron w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </summary>
+                    <div class="mt-5 pt-5" style="border-top:1px solid rgba(255,255,255,0.06)">
+                        <div class="mb-4">
+                            <p class="text-xs mono text-slate-500 uppercase tracking-wider mb-1">Thesis</p>
+                            <p class="text-slate-300 text-sm leading-relaxed">Meta deal validates this chip company as the definitive 'second source' for AI infrastructure. Analysts see 21% upside to average price target.</p>
+                        </div>
+                        <div class="p-3 rounded-lg" style="background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.15)">
+                            <p class="text-xs mono text-red-400 uppercase tracking-wider mb-1">⚠ Invalidation</p>
+                            <p class="text-sm text-red-300">Break below $206 (Gap Fill / Recent Low) would signal trend weakness.</p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- IONQ -->
+                <details class="card p-6 group">
+                    <summary class="flex justify-between items-start gap-4">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-2 flex-wrap mb-2">
+                                <span class="font-bold text-white">🔒 Quantum Computing Speculative</span>
+                                <span class="pill-moon text-xs px-2 py-0.5 rounded-full">Moonshot</span>
+                                <span class="badge-hold text-xs px-2 py-0.5 rounded-full mono font-bold" style="background:rgba(168,85,247,0.15);color:#c084fc;border:1px solid rgba(192,132,252,0.3)">BUY SPEC</span>
+                            </div>
+                            <p class="mono text-xs text-slate-500">Entry: $33.80 · Catalyst: $151B Defense Eligibility + Earnings</p>
+                        </div>
+                        <div class="flex flex-col items-end gap-1 shrink-0">
+                            <span class="mono font-bold text-lg" style="color:#c084fc">90%</span>
+                            <svg class="chevron w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </summary>
+                    <div class="mt-5 pt-5" style="border-top:1px solid rgba(255,255,255,0.06)">
+                        <div class="mb-4">
+                            <p class="text-xs mono text-slate-500 uppercase tracking-wider mb-1">Thesis</p>
+                            <p class="text-slate-300 text-sm leading-relaxed">Government validation transforms the narrative from 'science project' to 'defense infrastructure.' Revenue up 429%. Massive upside if earnings beat.</p>
+                        </div>
+                        <div class="p-3 rounded-lg" style="background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.15)">
+                            <p class="text-xs mono text-red-400 uppercase tracking-wider mb-1">⚠ Invalidation</p>
+                            <p class="text-sm text-red-300">Drop below $26.00 (Major Demand Zone) breaks the bullish thesis entirely.</p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- ZETA -->
+                <details class="card p-6 group">
+                    <summary class="flex justify-between items-start gap-4">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-2 flex-wrap mb-2">
+                                <span class="font-bold text-white">🔒 High-Growth AI Marketing</span>
+                                <span class="pill-growth text-xs px-2 py-0.5 rounded-full">Growth</span>
+                                <span class="badge-strong text-xs px-2 py-0.5 rounded-full mono font-bold">STRONG BUY</span>
+                            </div>
+                            <p class="mono text-xs text-slate-500">Entry: $17.85 · Catalyst: Analyst Consensus + Breakout</p>
+                        </div>
+                        <div class="flex flex-col items-end gap-1 shrink-0">
+                            <span class="mono font-bold text-lg" style="color:var(--green)">85%</span>
+                            <svg class="chevron w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </summary>
+                    <div class="mt-5 pt-5" style="border-top:1px solid rgba(255,255,255,0.06)">
+                        <div class="mb-4">
+                            <p class="text-xs mono text-slate-500 uppercase tracking-wider mb-1">Thesis</p>
+                            <p class="text-slate-300 text-sm leading-relaxed">Institutions loading up ahead of Q4 earnings on AI-marketing tailwinds. 64% of analysts rate Strong Buy. Steady climb — breaking $18 resistance is the key bull signal.</p>
+                        </div>
+                        <div class="p-3 rounded-lg" style="background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.15)">
+                            <p class="text-xs mono text-red-400 uppercase tracking-wider mb-1">⚠ Invalidation</p>
+                            <p class="text-sm text-red-300">Close below $15.50 (20-day MA & recent support) invalidates the breakout trend.</p>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- SOFI -->
+                <details class="card p-6 group">
+                    <summary class="flex justify-between items-start gap-4">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-2 flex-wrap mb-2">
+                                <span class="font-bold text-white">🔒 Fintech Turnaround</span>
+                                <span class="pill-value text-xs px-2 py-0.5 rounded-full">Value/Growth</span>
+                                <span class="badge-buy text-xs px-2 py-0.5 rounded-full mono font-bold">BUY</span>
+                            </div>
+                            <p class="mono text-xs text-slate-500">Entry: $19.25 · Catalyst: Dip Buy Opportunity</p>
+                        </div>
+                        <div class="flex flex-col items-end gap-1 shrink-0">
+                            <span class="mono font-bold text-lg" style="color:#fbbf24">82%</span>
+                            <svg class="chevron w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </summary>
+                    <div class="mt-5 pt-5" style="border-top:1px solid rgba(255,255,255,0.06)">
+                        <div class="mb-4">
+                            <p class="text-xs mono text-slate-500 uppercase tracking-wider mb-1">Thesis</p>
+                            <p class="text-slate-300 text-sm leading-relaxed">Strong earnings but price lagged the fundamentals. This is a catch-up trade — the market hasn't fully priced in the turnaround story yet.</p>
+                        </div>
+                        <div class="p-3 rounded-lg" style="background:rgba(239,68,68,0.07); border:1px solid rgba(239,68,68,0.15)">
+                            <p class="text-xs mono text-red-400 uppercase tracking-wider mb-1">⚠ Invalidation</p>
+                            <p class="text-sm text-red-300">Close below $17.80 breaks the support and invalidates the dip-buy thesis.</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- UNLOCK CTA -->
+        <div class="max-w-7xl mx-auto px-6 pb-24">
+            <div class="card p-10 text-center grid-bg relative overflow-hidden" style="border-color:rgba(0,255,65,0.15)">
+                <div class="absolute inset-0 opacity-5" style="background:radial-gradient(ellipse at center, #00FF41 0%, transparent 70%)"></div>
+                <div class="relative z-10">
+                    <p class="mono text-xs tracking-widest mb-3" style="color:var(--green)">MEMBERS ONLY</p>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Unlock Full Ticker Data</h3>
+                    <p class="text-slate-400 mb-6 max-w-md mx-auto">Get the exact tickers behind every signal, real-time alerts, and entry/exit strategies direct to your phone.</p>
+                    <button class="btn-glow px-8 py-4 rounded-full font-bold text-lg" style="background:var(--green); color:var(--navy)">Get Alpha Access</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FAQ SECTION -->
+    <section class="bg-navy py-24 px-6 border-t border-slate-800">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-white">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <details class="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-white hover:text-electric-green transition-colors">
+                        <span>Does Atlas trade my money for me?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-slate-400 leading-relaxed border-t border-slate-800">
+                        No. You maintain 100% control of your capital at all times. Atlas Alpha is a research and intelligence firm. We provide the high-conviction signals, the catalyst breakdown, and the exact entry/exit parameters. You execute the trades in your own brokerage account (CommSec, Interactive Brokers, Robinhood, etc.).
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-white hover:text-electric-green transition-colors">
+                        <span>Who is this subscription actually for?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-slate-400 leading-relaxed border-t border-slate-800">
+                        This is built for the self-directed retail investor managing between $15,000 and $150,000. You likely have a full-time job and don't have 6 hours a day to scan charts, read earnings transcripts, and monitor dark pool volumes. Atlas does the heavy lifting so you can make informed, high-probability trades.
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-white hover:text-electric-green transition-colors">
+                        <span>Are there any lock-in contracts?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-slate-400 leading-relaxed border-t border-slate-800">
+                        Never. You can cancel your monthly subscription at any time with two clicks inside your member portal. If you cancel, you will retain access to the Pro Dashboard and signals until the end of your current billing cycle.
+                    </div>
+                </details>
+                
+                <!-- FAQ 4 -->
+                <details class="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center font-bold p-6 text-white hover:text-electric-green transition-colors">
+                        <span>What is an "Invalidation Thesis"?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="p-6 pt-0 text-slate-400 leading-relaxed border-t border-slate-800">
+                        It is our biggest competitive advantage. Most newsletters just tell you what to buy. We tell you exactly when we are wrong. Every signal comes with a specific price level or data point that "invalidates" the trade. If the stock hits that level, the thesis is dead, and it's time to cut the loss and preserve capital.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-8 text-xs text-slate-500 mono bg-slate-900 border-t border-slate-800">
+        <p>© 2026 Atlas Alpha. All rights reserved.</p>
+        <p class="mt-1 opacity-60">General Advice Warning: Trading involves risk. Past performance is not indicative of future results.</p>
+    </footer>
+
+    <script>
+    // Donut chart initialization
+    const ctx = document.getElementById('donutChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Core', 'Growth', 'Moonshot', 'Value/Growth'],
+            datasets: [{
+                data: [1, 1, 1, 1],
+                backgroundColor: ['rgba(96,165,250,0.8)', 'rgba(0,255,65,0.8)', 'rgba(192,132,252,0.8)', 'rgba(251,191,36,0.8)'],
+                borderColor: ['#60a5fa', '#00FF41', '#c084fc', '#fbbf24'],
+                borderWidth: 1.5,
+                hoverOffset: 6
+            }]
+        },
+        options: {
+            cutout: '72%',
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: ctx => ` ${ctx.label}: 1 signal`
+                    },
+                    backgroundColor: 'rgba(10,25,47,0.9)',
+                    borderColor: 'rgba(255,255,255,0.1)',
+                    borderWidth: 1,
+                    titleColor: '#e2e8f0',
+                    bodyColor: '#94a3b8',
+                    padding: 10
+                }
+            },
+            animation: { animateRotate: true, duration: 1000 }
+        }
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "CRSP": [
+        {
+            "symbol": "CRSP",
+            "date": "2026-02-26",
+            "entry": 61.74,
+            "return": -20.85
+        }
+    ],
+    "VUL.AX": [
+        {
+            "symbol": "VUL.AX",
+            "date": "2026-02-24",
+            "entry": 3.9,
+            "return": -10.51
+        }
+    ]
+}

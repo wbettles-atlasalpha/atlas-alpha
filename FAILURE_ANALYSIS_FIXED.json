@@ -1,0 +1,518 @@
+[
+    {
+        "symbol": "APP",
+        "date": "2025-09-29",
+        "rsi": 90.81,
+        "dist_sma50": 0.468
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-02-07",
+        "rsi": 83.07,
+        "dist_sma50": 0.1441
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-05-06",
+        "rsi": 71.18,
+        "dist_sma50": 0.1802
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-05-08",
+        "rsi": 70.61,
+        "dist_sma50": 0.1367
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-06-02",
+        "rsi": 72.1,
+        "dist_sma50": 0.1814
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-07-01",
+        "rsi": 60.2,
+        "dist_sma50": 0.0853
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-07-07",
+        "rsi": 59.19,
+        "dist_sma50": 0.0956
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-07-11",
+        "rsi": 50.72,
+        "dist_sma50": 0.024
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-07-18",
+        "rsi": 39.9,
+        "dist_sma50": 0.011
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-10-08",
+        "rsi": 53.35,
+        "dist_sma50": 0.1363
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-11-07",
+        "rsi": 68.17,
+        "dist_sma50": 0.1089
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-11-10",
+        "rsi": 72.89,
+        "dist_sma50": 0.139
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-11-12",
+        "rsi": 61.59,
+        "dist_sma50": 0.1027
+    },
+    {
+        "symbol": "CRWD",
+        "date": "2025-11-13",
+        "rsi": 51.08,
+        "dist_sma50": 0.0652
+    },
+    {
+        "symbol": "DDOG",
+        "date": "2025-09-09",
+        "rsi": 64.09,
+        "dist_sma50": 0.0218
+    },
+    {
+        "symbol": "DDOG",
+        "date": "2025-10-06",
+        "rsi": 81.65,
+        "dist_sma50": 0.1486
+    },
+    {
+        "symbol": "DDOG",
+        "date": "2025-11-12",
+        "rsi": 74.12,
+        "dist_sma50": 0.2431
+    },
+    {
+        "symbol": "DDOG",
+        "date": "2025-11-13",
+        "rsi": 69.43,
+        "dist_sma50": 0.2026
+    },
+    {
+        "symbol": "MDB",
+        "date": "2025-02-20",
+        "rsi": 65.67,
+        "dist_sma50": 0.0835
+    },
+    {
+        "symbol": "MDB",
+        "date": "2025-11-05",
+        "rsi": 71.01,
+        "dist_sma50": 0.0744
+    },
+    {
+        "symbol": "MDB",
+        "date": "2025-11-06",
+        "rsi": 71.47,
+        "dist_sma50": 0.0874
+    },
+    {
+        "symbol": "MDB",
+        "date": "2025-11-07",
+        "rsi": 70.21,
+        "dist_sma50": 0.1004
+    },
+    {
+        "symbol": "MDB",
+        "date": "2025-11-11",
+        "rsi": 74.07,
+        "dist_sma50": 0.1244
+    },
+    {
+        "symbol": "MDB",
+        "date": "2026-01-07",
+        "rsi": 58.08,
+        "dist_sma50": 0.1489
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-01-30",
+        "rsi": 77.91,
+        "dist_sma50": 0.2229
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-01-31",
+        "rsi": 85.14,
+        "dist_sma50": 0.2225
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-08-04",
+        "rsi": 70.14,
+        "dist_sma50": 0.1326
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-08-28",
+        "rsi": 58.93,
+        "dist_sma50": 0.0922
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-09-10",
+        "rsi": 81.92,
+        "dist_sma50": 0.1177
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-09-15",
+        "rsi": 78.87,
+        "dist_sma50": 0.1206
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-10-02",
+        "rsi": 52.67,
+        "dist_sma50": 0.0717
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-10-03",
+        "rsi": 42.68,
+        "dist_sma50": 0.0315
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-10-15",
+        "rsi": 49.3,
+        "dist_sma50": 0.0224
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-11-06",
+        "rsi": 59.1,
+        "dist_sma50": 0.0267
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-11-07",
+        "rsi": 60.84,
+        "dist_sma50": 0.0563
+    },
+    {
+        "symbol": "NET",
+        "date": "2025-11-10",
+        "rsi": 63.94,
+        "dist_sma50": 0.0882
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-01-07",
+        "rsi": 44.31,
+        "dist_sma50": 0.0353
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-02-14",
+        "rsi": 86.5,
+        "dist_sma50": 0.1303
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-02-19",
+        "rsi": 88.6,
+        "dist_sma50": 0.1517
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-02-21",
+        "rsi": 70.19,
+        "dist_sma50": 0.1001
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-02-24",
+        "rsi": 66.26,
+        "dist_sma50": 0.0843
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-02-28",
+        "rsi": 50.84,
+        "dist_sma50": 0.0689
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-03-03",
+        "rsi": 42.66,
+        "dist_sma50": 0.0526
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-03-04",
+        "rsi": 45.22,
+        "dist_sma50": 0.0501
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-03-05",
+        "rsi": 47.64,
+        "dist_sma50": 0.0505
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-04-30",
+        "rsi": 57.15,
+        "dist_sma50": 0.039
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-05-05",
+        "rsi": 72.93,
+        "dist_sma50": 0.0927
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-05-06",
+        "rsi": 65.87,
+        "dist_sma50": 0.0775
+    },
+    {
+        "symbol": "FTNT",
+        "date": "2025-07-09",
+        "rsi": 61.46,
+        "dist_sma50": 0.0404
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-02-11",
+        "rsi": 61.23,
+        "dist_sma50": 0.0398
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-02-20",
+        "rsi": 62.62,
+        "dist_sma50": 0.0541
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-07-17",
+        "rsi": 44.05,
+        "dist_sma50": 0.0066
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-10-08",
+        "rsi": 67.27,
+        "dist_sma50": 0.1388
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-10-28",
+        "rsi": 54.32,
+        "dist_sma50": 0.0944
+    },
+    {
+        "symbol": "PANW",
+        "date": "2025-11-12",
+        "rsi": 43.39,
+        "dist_sma50": 0.0069
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-02-07",
+        "rsi": 74.83,
+        "dist_sma50": 0.0486
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-02-10",
+        "rsi": 76.62,
+        "dist_sma50": 0.0841
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-02-12",
+        "rsi": 71.56,
+        "dist_sma50": 0.0765
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-02-19",
+        "rsi": 68.38,
+        "dist_sma50": 0.0901
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-03-25",
+        "rsi": 63.79,
+        "dist_sma50": 0.0773
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-03-28",
+        "rsi": 61.95,
+        "dist_sma50": 0.0276
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-06-30",
+        "rsi": 71.02,
+        "dist_sma50": 0.1962
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-09-19",
+        "rsi": 64.08,
+        "dist_sma50": 0.0486
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-10-27",
+        "rsi": 71.57,
+        "dist_sma50": 0.1194
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-11-06",
+        "rsi": 61.73,
+        "dist_sma50": 0.0593
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-11-12",
+        "rsi": 48.94,
+        "dist_sma50": 0.043
+    },
+    {
+        "symbol": "ZS",
+        "date": "2025-11-13",
+        "rsi": 41.4,
+        "dist_sma50": 0.0124
+    },
+    {
+        "symbol": "OKTA",
+        "date": "2025-02-06",
+        "rsi": 81.45,
+        "dist_sma50": 0.1462
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-01-27",
+        "rsi": 84.9,
+        "dist_sma50": 0.1557
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-01-28",
+        "rsi": 84.57,
+        "dist_sma50": 0.1717
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-01-29",
+        "rsi": 92.13,
+        "dist_sma50": 0.193
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-07-18",
+        "rsi": 75.06,
+        "dist_sma50": 0.3103
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-10-01",
+        "rsi": 51.74,
+        "dist_sma50": 0.0447
+    },
+    {
+        "symbol": "RBLX",
+        "date": "2025-10-02",
+        "rsi": 50.3,
+        "dist_sma50": 0.0378
+    },
+    {
+        "symbol": "DOCU",
+        "date": "2025-02-04",
+        "rsi": 68.44,
+        "dist_sma50": 0.0585
+    },
+    {
+        "symbol": "DOCU",
+        "date": "2025-05-15",
+        "rsi": 74.87,
+        "dist_sma50": 0.1153
+    },
+    {
+        "symbol": "DOCU",
+        "date": "2025-05-19",
+        "rsi": 75.8,
+        "dist_sma50": 0.118
+    },
+    {
+        "symbol": "DOCU",
+        "date": "2025-05-22",
+        "rsi": 60.09,
+        "dist_sma50": 0.0533
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-01-29",
+        "rsi": 69.54,
+        "dist_sma50": 0.0543
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-02-10",
+        "rsi": 77.97,
+        "dist_sma50": 0.0438
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-02-18",
+        "rsi": 35.07,
+        "dist_sma50": 0.0197
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-02-19",
+        "rsi": 39.96,
+        "dist_sma50": 0.019
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-09-30",
+        "rsi": 45.04,
+        "dist_sma50": 0.0493
+    },
+    {
+        "symbol": "ZM",
+        "date": "2025-12-19",
+        "rsi": 65.29,
+        "dist_sma50": 0.0674
+    },
+    {
+        "symbol": "ZM",
+        "date": "2026-01-12",
+        "rsi": 40.68,
+        "dist_sma50": 0.0151
+    },
+    {
+        "symbol": "ZM",
+        "date": "2026-01-30",
+        "rsi": 61.91,
+        "dist_sma50": 0.0676
+    }
+]

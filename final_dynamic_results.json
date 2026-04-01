@@ -1,0 +1,632 @@
+{
+    "AAPL": [
+        {
+            "symbol": "AAPL",
+            "date": "2024-01-02",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2024-04-11",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-05-02",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-06-20",
+            "invalidated": false,
+            "return": 0.69
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-09-03",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "MSFT": [
+        {
+            "symbol": "MSFT",
+            "date": "2024-02-29",
+            "invalidated": false,
+            "return": -2.66
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2024-08-30",
+            "invalidated": false,
+            "return": 5.06
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 35.22
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 25.64
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-09-05",
+            "invalidated": false,
+            "return": -3.17
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-10-10",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "NVDA": [
+        {
+            "symbol": "NVDA",
+            "date": "2024-06-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2024-07-17",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2024-10-15",
+            "invalidated": false,
+            "return": 6.5
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-10-28",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "AMZN": [
+        {
+            "symbol": "AMZN",
+            "date": "2023-11-21",
+            "invalidated": false,
+            "return": 21.61
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2024-05-15",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2024-11-21",
+            "invalidated": false,
+            "return": 11.16
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-05-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-06-05",
+            "invalidated": false,
+            "return": 4.07
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-07-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-08-14",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "META": [
+        {
+            "symbol": "META",
+            "date": "2024-04-04",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2024-07-05",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2024-10-23",
+            "invalidated": false,
+            "return": 6.03
+        },
+        {
+            "symbol": "META",
+            "date": "2024-12-03",
+            "invalidated": false,
+            "return": -2.6
+        },
+        {
+            "symbol": "META",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 17.52
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 9.09
+        },
+        {
+            "symbol": "META",
+            "date": "2025-08-18",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "GOOGL": [
+        {
+            "symbol": "GOOGL",
+            "date": "2024-02-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-03-14",
+            "invalidated": false,
+            "return": 17.03
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-08-14",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-11-21",
+            "invalidated": false,
+            "return": 12.52
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-03-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-05-07",
+            "invalidated": false,
+            "return": 86.33
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-06-10",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-06-20",
+            "invalidated": false,
+            "return": 42.09
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-08-22",
+            "invalidated": false,
+            "return": 36.7
+        }
+    ],
+    "BHP.AX": [
+        {
+            "symbol": "BHP.AX",
+            "date": "2023-11-15",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2023-11-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2023-12-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-01-16",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-02-15",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-03-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-04-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-05-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-08-14",
+            "invalidated": false,
+            "return": 13.73
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-08-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-09-19",
+            "invalidated": false,
+            "return": 8.96
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-10-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-10-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-11-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-12-10",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-01-06",
+            "invalidated": false,
+            "return": 2.7
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-06-27",
+            "invalidated": false,
+            "return": 11.4
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-07-18",
+            "invalidated": false,
+            "return": 3.77
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-07-31",
+            "invalidated": false,
+            "return": 6.52
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-10-09",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "CBA.AX": [
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-10-19",
+            "invalidated": false,
+            "return": 14.35
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-11-15",
+            "invalidated": false,
+            "return": 11.7
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 9.02
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-12-14",
+            "invalidated": false,
+            "return": 4.18
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-01-17",
+            "invalidated": false,
+            "return": 1.58
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-02-14",
+            "invalidated": false,
+            "return": 11.54
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-09-19",
+            "invalidated": false,
+            "return": -4.14
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-10-17",
+            "invalidated": false,
+            "return": 8.77
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-12-17",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-01-16",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-02-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-03-20",
+            "invalidated": false,
+            "return": 27.02
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-04-22",
+            "invalidated": false,
+            "return": 0.67
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 1.51
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 5.35
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-07-17",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-08-13",
+            "invalidated": false,
+            "return": -1.89
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-10-09",
+            "invalidated": false,
+            "return": -2.34
+        }
+    ],
+    "CSL.AX": [
+        {
+            "symbol": "CSL.AX",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 7.63
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-02-23",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-02-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-03-15",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-05-31",
+            "invalidated": false,
+            "return": 5.77
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-06-20",
+            "invalidated": false,
+            "return": 1.89
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-07-25",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-08-13",
+            "invalidated": false,
+            "return": 0.5
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-08-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-09-19",
+            "invalidated": false,
+            "return": -0.12
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-12-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-02-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-04-04",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-05-07",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-05-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-07-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-08-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-09-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-10-02",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ]
+}

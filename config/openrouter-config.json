@@ -1,0 +1,36 @@
+{
+  "apiManagement": {
+    "alphaVantage": {
+      "managed": true,
+      "quotaLimit": 90,
+      "alertThreshold": 80,
+      "fallback": "historicalDataset"
+    },
+    "finnhub": {
+      "managed": true,
+      "quotaLimit": 90,
+      "alertThreshold": 80,
+      "fallback": "alternativeApi"
+    },
+    "fredData": {
+      "managed": true,
+      "quotaLimit": 90,
+      "alertThreshold": 80,
+      "fallback": "historicalDataset"
+    },
+    "alpaca": {
+      "managed": true,
+      "quotaLimit": 90,
+      "alertThreshold": 80,
+      "loadBalancing": true
+    }
+  },
+  "monitoring": {
+    "enableLogs": true,
+    "logFilePath": "/var/log/openrouter_usage.log"
+  },
+  "costManagement": true,
+  "taskScheduling": {
+    "distributeLoad": true
+  }
+}

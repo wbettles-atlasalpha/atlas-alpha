@@ -1,0 +1,92 @@
+[
+    {
+        "ticker": "PANW",
+        "fundamental_score": 7,
+        "technical_score": 7,
+        "total_alpha_score": 14
+    },
+    {
+        "ticker": "ZM",
+        "fundamental_score": 7,
+        "technical_score": 6,
+        "total_alpha_score": 13
+    },
+    {
+        "ticker": "FTNT",
+        "fundamental_score": 7,
+        "technical_score": 4,
+        "total_alpha_score": 11
+    },
+    {
+        "ticker": "APP",
+        "fundamental_score": 7,
+        "technical_score": 3,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "CRWD",
+        "fundamental_score": 3,
+        "technical_score": 7,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "DDOG",
+        "fundamental_score": 3,
+        "technical_score": 7,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "DOCU",
+        "fundamental_score": 7,
+        "technical_score": 3,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "DT",
+        "fundamental_score": 3,
+        "technical_score": 7,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "NVDA",
+        "fundamental_score": 7,
+        "technical_score": 3,
+        "total_alpha_score": 10
+    },
+    {
+        "ticker": "MDB",
+        "fundamental_score": 3,
+        "technical_score": 6,
+        "total_alpha_score": 9
+    },
+    {
+        "ticker": "AMD",
+        "fundamental_score": 3,
+        "technical_score": 6,
+        "total_alpha_score": 9
+    },
+    {
+        "ticker": "ZETA",
+        "fundamental_score": 3,
+        "technical_score": 3,
+        "total_alpha_score": 6
+    },
+    {
+        "ticker": "OKTA",
+        "fundamental_score": 3,
+        "technical_score": 3,
+        "total_alpha_score": 6
+    },
+    {
+        "ticker": "PATH",
+        "fundamental_score": 3,
+        "technical_score": 3,
+        "total_alpha_score": 6
+    },
+    {
+        "ticker": "ESTC",
+        "fundamental_score": 3,
+        "technical_score": 3,
+        "total_alpha_score": 6
+    }
+]

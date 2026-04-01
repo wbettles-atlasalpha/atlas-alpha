@@ -1,0 +1,1518 @@
+{
+    "Nasdaq 100": [
+        {
+            "symbol": "AAPL",
+            "date": "2025-04-09",
+            "entry": 197.99,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-05-12",
+            "entry": 210.15,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.95
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-08-06",
+            "entry": 212.6,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 9.54
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-04-09",
+            "entry": 387.52,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-05-01",
+            "entry": 422.17,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-04-09",
+            "entry": 191.1,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-05-12",
+            "entry": 208.64,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.19
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-10-31",
+            "entry": 244.22,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.08
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-01-28",
+            "entry": 128.95,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-02-05",
+            "entry": 124.79,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 5.05
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-03-12",
+            "entry": 115.71,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.54
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-03-14",
+            "entry": 121.64,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-04-09",
+            "entry": 114.3,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-05-12",
+            "entry": 122.97,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 10.22
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-05-13",
+            "entry": 129.9,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.42
+        },
+        {
+            "symbol": "NVDA",
+            "date": "2025-11-10",
+            "entry": 199.03,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-04-09",
+            "entry": 583.95,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-12",
+            "entry": 637.44,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.16
+        },
+        {
+            "symbol": "META",
+            "date": "2025-07-31",
+            "entry": 771.63,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.5
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-04-09",
+            "entry": 158.16,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-09-03",
+            "entry": 230.14,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.78
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-11-24",
+            "entry": 318.15,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.87
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-02-26",
+            "entry": 211.03,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-03-07",
+            "entry": 193.21,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-04-07",
+            "entry": 153.22,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 15.71
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-04-09",
+            "entry": 184.05,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-04-11",
+            "entry": 180.86,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-04-24",
+            "entry": 187.03,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 4.88
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-05-12",
+            "entry": 220.26,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 4.08
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-09-05",
+            "entry": 333.68,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.46
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-09-10",
+            "entry": 368.23,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-10-13",
+            "entry": 356.02,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -2.09
+        },
+        {
+            "symbol": "AVGO",
+            "date": "2025-11-24",
+            "entry": 377.24,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.96
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-01-03",
+            "entry": 410.44,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-01-15",
+            "entry": 428.22,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-02-13",
+            "entry": 355.94,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-03-12",
+            "entry": 248.09,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-03-21",
+            "entry": 248.71,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 5.97
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-03-24",
+            "entry": 278.39,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-04-02",
+            "entry": 282.76,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-04-09",
+            "entry": 272.2,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-04-23",
+            "entry": 250.74,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 12.53
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-04-25",
+            "entry": 284.95,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.79
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-05-12",
+            "entry": 318.38,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.45
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-05-27",
+            "entry": 362.89,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-06-10",
+            "entry": 326.09,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -2.99
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-06-23",
+            "entry": 348.68,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-08-22",
+            "entry": 340.01,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.81
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-09-11",
+            "entry": 368.81,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 13.03
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-09-12",
+            "entry": 395.94,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.61
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-10-06",
+            "entry": 453.25,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-10-13",
+            "entry": 435.9,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.65
+        },
+        {
+            "symbol": "TSLA",
+            "date": "2025-11-24",
+            "entry": 417.78,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.74
+        },
+        {
+            "symbol": "COST",
+            "date": "2025-04-09",
+            "entry": 959.93,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.27
+        },
+        {
+            "symbol": "PEP",
+            "date": "2025-07-17",
+            "entry": 141.37,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.64
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2025-04-09",
+            "entry": 364.64,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2025-12-05",
+            "entry": 346.26,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.94
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-03-24",
+            "entry": 113.85,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-04-09",
+            "entry": 96.84,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-04-11",
+            "entry": 93.4,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-05-12",
+            "entry": 108.12,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.12
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-06-16",
+            "entry": 126.39,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 9.53
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-06-24",
+            "entry": 138.43,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.68
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-07-15",
+            "entry": 155.61,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.57
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-08-07",
+            "entry": 172.4,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 4.96
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-08-13",
+            "entry": 184.42,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-06",
+            "entry": 203.71,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.24
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-08",
+            "entry": 235.56,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-15",
+            "entry": 238.6,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-24",
+            "entry": 252.92,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.27
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-11-12",
+            "entry": 258.89,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-11-24",
+            "entry": 215.05,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "NFLX",
+            "date": "2025-01-22",
+            "entry": 95.4,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.53
+        },
+        {
+            "symbol": "NFLX",
+            "date": "2025-04-09",
+            "entry": 94.55,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "NFLX",
+            "date": "2025-04-22",
+            "entry": 104.03,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 8.2
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-01-17",
+            "entry": 21.49,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-02-11",
+            "entry": 20.97,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 22.65
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-02-12",
+            "entry": 22.48,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 16.06
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-02-13",
+            "entry": 24.13,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-02-18",
+            "entry": 27.39,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-03-13",
+            "entry": 23.7,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.1
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-03-17",
+            "entry": 25.69,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-04-09",
+            "entry": 21.53,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-04-23",
+            "entry": 20.59,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-06-10",
+            "entry": 22.08,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-06-24",
+            "entry": 22.55,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.33
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-07-08",
+            "entry": 23.59,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -2.84
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-08-12",
+            "entry": 21.81,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 16.05
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-08-14",
+            "entry": 23.86,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.51
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-08-19",
+            "entry": 25.31,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-08-22",
+            "entry": 24.8,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.81
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-09-18",
+            "entry": 30.57,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-09-24",
+            "entry": 31.22,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 15.12
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-09-25",
+            "entry": 33.99,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 9.74
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-10-01",
+            "entry": 35.94,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 4.15
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-10-28",
+            "entry": 41.53,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-11-28",
+            "entry": 40.56,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.1
+        },
+        {
+            "symbol": "INTC",
+            "date": "2025-12-02",
+            "entry": 43.47,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSCO",
+            "date": "2025-04-09",
+            "entry": 57.13,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "CMCSA",
+            "date": "2025-04-09",
+            "entry": 31.95,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMGN",
+            "date": "2025-02-05",
+            "entry": 296.06,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMGN",
+            "date": "2025-10-01",
+            "entry": 294.35,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.3
+        },
+        {
+            "symbol": "AMGN",
+            "date": "2025-11-05",
+            "entry": 315.41,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 5.13
+        },
+        {
+            "symbol": "HON",
+            "date": "2025-04-09",
+            "entry": 183.71,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "HON",
+            "date": "2025-04-29",
+            "entry": 195.15,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.74
+        },
+        {
+            "symbol": "HON",
+            "date": "2025-10-23",
+            "entry": 205.72,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -3.79
+        },
+        {
+            "symbol": "TXN",
+            "date": "2025-02-19",
+            "entry": 190.31,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.98
+        },
+        {
+            "symbol": "TXN",
+            "date": "2025-04-09",
+            "entry": 164.31,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "TXN",
+            "date": "2025-04-24",
+            "entry": 157.17,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.55
+        },
+        {
+            "symbol": "TXN",
+            "date": "2025-05-12",
+            "entry": 183.1,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.57
+        },
+        {
+            "symbol": "TXN",
+            "date": "2025-08-12",
+            "entry": 190.02,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.54
+        },
+        {
+            "symbol": "QCOM",
+            "date": "2025-04-09",
+            "entry": 140.3,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "QCOM",
+            "date": "2025-10-13",
+            "entry": 159.93,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.25
+        },
+        {
+            "symbol": "QCOM",
+            "date": "2025-10-27",
+            "entry": 185.53,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "TMUS",
+            "date": "2025-01-29",
+            "entry": 230.43,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.1
+        },
+        {
+            "symbol": "TMUS",
+            "date": "2025-07-24",
+            "entry": 244.24,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -3.67
+        },
+        {
+            "symbol": "INTU",
+            "date": "2025-02-26",
+            "entry": 621.29,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTU",
+            "date": "2025-04-09",
+            "entry": 592.46,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "INTU",
+            "date": "2025-05-23",
+            "entry": 716.53,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.23
+        },
+        {
+            "symbol": "SBUX",
+            "date": "2025-01-29",
+            "entry": 105.09,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.38
+        },
+        {
+            "symbol": "SBUX",
+            "date": "2025-04-09",
+            "entry": 86.3,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "SBUX",
+            "date": "2025-05-12",
+            "entry": 83.37,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.54
+        },
+        {
+            "symbol": "GILD",
+            "date": "2025-02-12",
+            "entry": 99.93,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.5
+        },
+        {
+            "symbol": "GILD",
+            "date": "2025-05-12",
+            "entry": 101.13,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "GILD",
+            "date": "2025-08-08",
+            "entry": 117.14,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.87
+        },
+        {
+            "symbol": "BKNG",
+            "date": "2025-04-09",
+            "entry": 4581.21,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "ADP",
+            "date": "2025-04-09",
+            "entry": 287.46,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.19
+        },
+        {
+            "symbol": "VRTX",
+            "date": "2025-01-31",
+            "entry": 461.68,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.65
+        },
+        {
+            "symbol": "VRTX",
+            "date": "2025-12-03",
+            "entry": 463.13,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-01-06",
+            "entry": 98.94,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-01-15",
+            "entry": 102.85,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.6
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-02-18",
+            "entry": 106.44,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-03-12",
+            "entry": 95.33,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.71
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-03-14",
+            "entry": 100.46,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-04-07",
+            "entry": 68.24,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-04-09",
+            "entry": 77.72,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-04-22",
+            "entry": 70.07,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 9.5
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-04-24",
+            "entry": 77.27,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-05-12",
+            "entry": 92.11,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.89
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-05-13",
+            "entry": 96.74,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.21
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-08-08",
+            "entry": 118.77,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.67
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-09-05",
+            "entry": 131.23,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 19.68
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-09-11",
+            "entry": 150.42,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 12.17
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-09-18",
+            "entry": 168.72,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-10-01",
+            "entry": 181.96,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.97
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-10-08",
+            "entry": 196.46,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-10-13",
+            "entry": 192.69,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.26
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-10-16",
+            "entry": 202.45,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-10-24",
+            "entry": 218.93,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.17
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-11-05",
+            "entry": 237.4,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.12
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-11-10",
+            "entry": 253.2,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "MU",
+            "date": "2025-11-24",
+            "entry": 223.84,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.95
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-03-10",
+            "entry": 740.78,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-04-30",
+            "entry": 595.51,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-05-12",
+            "entry": 572.5,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 3.63
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-10-01",
+            "entry": 598.47,
+            "invalidated": true,
+            "days_held": 5,
+            "return": -5.0
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-10-28",
+            "entry": 652.88,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -4.05
+        },
+        {
+            "symbol": "REGN",
+            "date": "2025-11-20",
+            "entry": 736.11,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 5.86
+        }
+    ],
+    "ASX 200": [
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-04-10",
+            "entry": 34.56,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.33
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-07-03",
+            "entry": 37.7,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -2.47
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-10-30",
+            "entry": 177.27,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.04
+        },
+        {
+            "symbol": "WBC.AX",
+            "date": "2025-08-14",
+            "entry": 35.35,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 7.46
+        },
+        {
+            "symbol": "WDS.AX",
+            "date": "2025-06-13",
+            "entry": 23.78,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.54
+        },
+        {
+            "symbol": "RIO.AX",
+            "date": "2025-04-10",
+            "entry": 106.1,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.86
+        },
+        {
+            "symbol": "MQG.AX",
+            "date": "2025-04-10",
+            "entry": 174.54,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.29
+        },
+        {
+            "symbol": "MQG.AX",
+            "date": "2025-04-23",
+            "entry": 184.26,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.33
+        },
+        {
+            "symbol": "MQG.AX",
+            "date": "2025-10-16",
+            "entry": 225.8,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -1.31
+        },
+        {
+            "symbol": "WOW.AX",
+            "date": "2025-03-21",
+            "entry": 29.1,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.5
+        },
+        {
+            "symbol": "TLS.AX",
+            "date": "2025-02-20",
+            "entry": 3.89,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.6
+        },
+        {
+            "symbol": "FMG.AX",
+            "date": "2025-04-10",
+            "entry": 14.18,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.07
+        },
+        {
+            "symbol": "FMG.AX",
+            "date": "2025-04-29",
+            "entry": 15.4,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -2.32
+        },
+        {
+            "symbol": "COL.AX",
+            "date": "2025-08-26",
+            "entry": 21.77,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.8
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-04-10",
+            "entry": 27.55,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 1.22
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-11-06",
+            "entry": 62.11,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 2.11
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-01-08",
+            "entry": 0.22,
+            "invalidated": true,
+            "days_held": 4,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-01-17",
+            "entry": 0.22,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 4.44
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-03-11",
+            "entry": 0.18,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-04-08",
+            "entry": 0.17,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-04-10",
+            "entry": 0.17,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-04-28",
+            "entry": 0.17,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 6.06
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-05-22",
+            "entry": 0.17,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-06-05",
+            "entry": 0.17,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-06-30",
+            "entry": 0.15,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-07-10",
+            "entry": 0.16,
+            "invalidated": true,
+            "days_held": 3,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-07-18",
+            "entry": 0.16,
+            "invalidated": true,
+            "days_held": 2,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-08-06",
+            "entry": 0.12,
+            "invalidated": false,
+            "days_held": 5,
+            "return": 0.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-08-26",
+            "entry": 0.12,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-10-22",
+            "entry": 0.12,
+            "invalidated": true,
+            "days_held": 1,
+            "return": -5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-04-10",
+            "entry": 156.09,
+            "invalidated": false,
+            "days_held": 5,
+            "return": -0.63
+        }
+    ]
+}

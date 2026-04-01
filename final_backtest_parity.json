@@ -1,0 +1,2910 @@
+{
+    "AAPL": [
+        {
+            "symbol": "AAPL",
+            "return": 2.0
+        },
+        {
+            "symbol": "AAPL",
+            "return": 9.87
+        },
+        {
+            "symbol": "AAPL",
+            "return": 11.29
+        },
+        {
+            "symbol": "AAPL",
+            "return": -2.6
+        },
+        {
+            "symbol": "AAPL",
+            "return": -3.99
+        },
+        {
+            "symbol": "AAPL",
+            "return": -1.92
+        },
+        {
+            "symbol": "AAPL",
+            "return": -0.05
+        },
+        {
+            "symbol": "AAPL",
+            "return": 8.03
+        },
+        {
+            "symbol": "AAPL",
+            "return": 1.67
+        },
+        {
+            "symbol": "AAPL",
+            "return": 2.18
+        },
+        {
+            "symbol": "AAPL",
+            "return": 1.77
+        },
+        {
+            "symbol": "AAPL",
+            "return": 3.33
+        },
+        {
+            "symbol": "AAPL",
+            "return": -10.1
+        },
+        {
+            "symbol": "AAPL",
+            "return": -8.7
+        },
+        {
+            "symbol": "AAPL",
+            "return": -9.02
+        },
+        {
+            "symbol": "AAPL",
+            "return": -8.7
+        },
+        {
+            "symbol": "AAPL",
+            "return": -0.01
+        },
+        {
+            "symbol": "AAPL",
+            "return": 4.52
+        },
+        {
+            "symbol": "AAPL",
+            "return": 6.25
+        },
+        {
+            "symbol": "AAPL",
+            "return": 4.71
+        },
+        {
+            "symbol": "AAPL",
+            "return": 0.65
+        },
+        {
+            "symbol": "AAPL",
+            "return": -3.18
+        },
+        {
+            "symbol": "AAPL",
+            "return": -3.03
+        }
+    ],
+    "MSFT": [
+        {
+            "symbol": "MSFT",
+            "return": 8.71
+        },
+        {
+            "symbol": "MSFT",
+            "return": 8.21
+        },
+        {
+            "symbol": "MSFT",
+            "return": 5.05
+        },
+        {
+            "symbol": "MSFT",
+            "return": 2.14
+        },
+        {
+            "symbol": "MSFT",
+            "return": 4.55
+        },
+        {
+            "symbol": "MSFT",
+            "return": -1.1
+        },
+        {
+            "symbol": "MSFT",
+            "return": 0.99
+        },
+        {
+            "symbol": "MSFT",
+            "return": 0.33
+        },
+        {
+            "symbol": "MSFT",
+            "return": -0.42
+        },
+        {
+            "symbol": "MSFT",
+            "return": -2.45
+        }
+    ],
+    "NVDA": [
+        {
+            "symbol": "NVDA",
+            "return": 8.74
+        },
+        {
+            "symbol": "NVDA",
+            "return": 6.46
+        },
+        {
+            "symbol": "NVDA",
+            "return": 19.35
+        },
+        {
+            "symbol": "NVDA",
+            "return": 15.51
+        },
+        {
+            "symbol": "NVDA",
+            "return": 9.54
+        },
+        {
+            "symbol": "NVDA",
+            "return": -0.19
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.05
+        },
+        {
+            "symbol": "NVDA",
+            "return": -4.33
+        },
+        {
+            "symbol": "NVDA",
+            "return": -7.62
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.34
+        },
+        {
+            "symbol": "NVDA",
+            "return": -0.33
+        },
+        {
+            "symbol": "NVDA",
+            "return": 10.04
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.98
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.42
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.01
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.24
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.05
+        },
+        {
+            "symbol": "NVDA",
+            "return": 13.85
+        },
+        {
+            "symbol": "NVDA",
+            "return": 11.34
+        },
+        {
+            "symbol": "NVDA",
+            "return": 16.22
+        },
+        {
+            "symbol": "NVDA",
+            "return": 13.02
+        },
+        {
+            "symbol": "NVDA",
+            "return": 20.11
+        },
+        {
+            "symbol": "NVDA",
+            "return": 9.75
+        },
+        {
+            "symbol": "NVDA",
+            "return": 12.04
+        },
+        {
+            "symbol": "NVDA",
+            "return": 9.65
+        },
+        {
+            "symbol": "NVDA",
+            "return": 7.05
+        },
+        {
+            "symbol": "NVDA",
+            "return": 17.39
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.45
+        },
+        {
+            "symbol": "NVDA",
+            "return": 11.17
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.78
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.99
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.89
+        },
+        {
+            "symbol": "NVDA",
+            "return": -1.33
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.43
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.04
+        },
+        {
+            "symbol": "NVDA",
+            "return": -1.18
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.35
+        },
+        {
+            "symbol": "NVDA",
+            "return": 16.77
+        },
+        {
+            "symbol": "NVDA",
+            "return": 14.39
+        },
+        {
+            "symbol": "NVDA",
+            "return": 13.91
+        },
+        {
+            "symbol": "NVDA",
+            "return": 16.45
+        },
+        {
+            "symbol": "NVDA",
+            "return": 9.94
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.68
+        },
+        {
+            "symbol": "NVDA",
+            "return": 12.48
+        },
+        {
+            "symbol": "NVDA",
+            "return": 11.46
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.05
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.67
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.33
+        },
+        {
+            "symbol": "NVDA",
+            "return": 4.34
+        },
+        {
+            "symbol": "NVDA",
+            "return": 0.19
+        },
+        {
+            "symbol": "NVDA",
+            "return": -1.48
+        },
+        {
+            "symbol": "NVDA",
+            "return": -7.67
+        },
+        {
+            "symbol": "NVDA",
+            "return": -7.47
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.8
+        },
+        {
+            "symbol": "NVDA",
+            "return": 0.08
+        },
+        {
+            "symbol": "NVDA",
+            "return": -2.21
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.48
+        },
+        {
+            "symbol": "NVDA",
+            "return": -11.18
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.81
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.41
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.73
+        },
+        {
+            "symbol": "NVDA",
+            "return": 14.35
+        },
+        {
+            "symbol": "NVDA",
+            "return": -0.43
+        },
+        {
+            "symbol": "NVDA",
+            "return": -15.75
+        },
+        {
+            "symbol": "NVDA",
+            "return": -14.11
+        },
+        {
+            "symbol": "NVDA",
+            "return": 0.22
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.46
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.64
+        },
+        {
+            "symbol": "NVDA",
+            "return": 6.24
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.06
+        },
+        {
+            "symbol": "NVDA",
+            "return": 2.76
+        },
+        {
+            "symbol": "NVDA",
+            "return": 10.02
+        },
+        {
+            "symbol": "NVDA",
+            "return": 4.85
+        },
+        {
+            "symbol": "NVDA",
+            "return": 5.87
+        },
+        {
+            "symbol": "NVDA",
+            "return": 5.2
+        },
+        {
+            "symbol": "NVDA",
+            "return": 6.72
+        },
+        {
+            "symbol": "NVDA",
+            "return": 1.12
+        },
+        {
+            "symbol": "NVDA",
+            "return": -1.47
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.2
+        },
+        {
+            "symbol": "NVDA",
+            "return": -0.76
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.47
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.44
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.03
+        },
+        {
+            "symbol": "NVDA",
+            "return": -2.44
+        },
+        {
+            "symbol": "NVDA",
+            "return": -0.19
+        },
+        {
+            "symbol": "NVDA",
+            "return": 9.1
+        },
+        {
+            "symbol": "NVDA",
+            "return": 7.18
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.7
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.37
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.56
+        },
+        {
+            "symbol": "NVDA",
+            "return": -3.96
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.41
+        },
+        {
+            "symbol": "NVDA",
+            "return": 11.59
+        },
+        {
+            "symbol": "NVDA",
+            "return": 10.52
+        },
+        {
+            "symbol": "NVDA",
+            "return": 8.28
+        },
+        {
+            "symbol": "NVDA",
+            "return": 3.95
+        },
+        {
+            "symbol": "NVDA",
+            "return": -7.9
+        },
+        {
+            "symbol": "NVDA",
+            "return": -6.08
+        },
+        {
+            "symbol": "NVDA",
+            "return": -9.8
+        },
+        {
+            "symbol": "NVDA",
+            "return": -8.72
+        },
+        {
+            "symbol": "NVDA",
+            "return": -4.45
+        },
+        {
+            "symbol": "NVDA",
+            "return": -8.29
+        },
+        {
+            "symbol": "NVDA",
+            "return": -7.94
+        },
+        {
+            "symbol": "NVDA",
+            "return": -5.39
+        },
+        {
+            "symbol": "NVDA",
+            "return": -2.75
+        },
+        {
+            "symbol": "NVDA",
+            "return": -1.0
+        },
+        {
+            "symbol": "NVDA",
+            "return": 7.54
+        }
+    ],
+    "AMZN": [
+        {
+            "symbol": "AMZN",
+            "return": 10.41
+        },
+        {
+            "symbol": "AMZN",
+            "return": 11.01
+        },
+        {
+            "symbol": "AMZN",
+            "return": 9.55
+        },
+        {
+            "symbol": "AMZN",
+            "return": 4.53
+        },
+        {
+            "symbol": "AMZN",
+            "return": 3.45
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.83
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.36
+        },
+        {
+            "symbol": "AMZN",
+            "return": 2.02
+        },
+        {
+            "symbol": "AMZN",
+            "return": -4.52
+        },
+        {
+            "symbol": "AMZN",
+            "return": 2.68
+        },
+        {
+            "symbol": "AMZN",
+            "return": 4.96
+        },
+        {
+            "symbol": "AMZN",
+            "return": 4.76
+        },
+        {
+            "symbol": "AMZN",
+            "return": 6.47
+        },
+        {
+            "symbol": "AMZN",
+            "return": 5.14
+        },
+        {
+            "symbol": "AMZN",
+            "return": 6.46
+        },
+        {
+            "symbol": "AMZN",
+            "return": -4.46
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.12
+        },
+        {
+            "symbol": "AMZN",
+            "return": -6.04
+        },
+        {
+            "symbol": "AMZN",
+            "return": -8.43
+        },
+        {
+            "symbol": "AMZN",
+            "return": -7.79
+        },
+        {
+            "symbol": "AMZN",
+            "return": -4.94
+        },
+        {
+            "symbol": "AMZN",
+            "return": -0.51
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.17
+        },
+        {
+            "symbol": "AMZN",
+            "return": -8.32
+        },
+        {
+            "symbol": "AMZN",
+            "return": -13.13
+        },
+        {
+            "symbol": "AMZN",
+            "return": -9.99
+        },
+        {
+            "symbol": "AMZN",
+            "return": -7.81
+        },
+        {
+            "symbol": "AMZN",
+            "return": -6.32
+        },
+        {
+            "symbol": "AMZN",
+            "return": -9.03
+        },
+        {
+            "symbol": "AMZN",
+            "return": -3.08
+        },
+        {
+            "symbol": "AMZN",
+            "return": 6.03
+        },
+        {
+            "symbol": "AMZN",
+            "return": 8.03
+        },
+        {
+            "symbol": "AMZN",
+            "return": 2.22
+        },
+        {
+            "symbol": "AMZN",
+            "return": -0.9
+        },
+        {
+            "symbol": "AMZN",
+            "return": -6.75
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.36
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.45
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.65
+        },
+        {
+            "symbol": "AMZN",
+            "return": 10.55
+        },
+        {
+            "symbol": "AMZN",
+            "return": 1.24
+        },
+        {
+            "symbol": "AMZN",
+            "return": 1.93
+        },
+        {
+            "symbol": "AMZN",
+            "return": 2.6
+        },
+        {
+            "symbol": "AMZN",
+            "return": 3.25
+        },
+        {
+            "symbol": "AMZN",
+            "return": -1.82
+        },
+        {
+            "symbol": "AMZN",
+            "return": -6.37
+        },
+        {
+            "symbol": "AMZN",
+            "return": -8.72
+        },
+        {
+            "symbol": "AMZN",
+            "return": -8.54
+        },
+        {
+            "symbol": "AMZN",
+            "return": -7.21
+        },
+        {
+            "symbol": "AMZN",
+            "return": -7.11
+        },
+        {
+            "symbol": "AMZN",
+            "return": -4.53
+        },
+        {
+            "symbol": "AMZN",
+            "return": 3.38
+        },
+        {
+            "symbol": "AMZN",
+            "return": 1.84
+        },
+        {
+            "symbol": "AMZN",
+            "return": 5.22
+        },
+        {
+            "symbol": "AMZN",
+            "return": -1.55
+        },
+        {
+            "symbol": "AMZN",
+            "return": -0.95
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.29
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.95
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.0
+        },
+        {
+            "symbol": "AMZN",
+            "return": -3.23
+        },
+        {
+            "symbol": "AMZN",
+            "return": -2.92
+        },
+        {
+            "symbol": "AMZN",
+            "return": 5.94
+        },
+        {
+            "symbol": "AMZN",
+            "return": 6.83
+        },
+        {
+            "symbol": "AMZN",
+            "return": 14.8
+        },
+        {
+            "symbol": "AMZN",
+            "return": 8.66
+        },
+        {
+            "symbol": "AMZN",
+            "return": 2.88
+        },
+        {
+            "symbol": "AMZN",
+            "return": 0.72
+        },
+        {
+            "symbol": "AMZN",
+            "return": -4.85
+        },
+        {
+            "symbol": "AMZN",
+            "return": -5.06
+        },
+        {
+            "symbol": "AMZN",
+            "return": -1.03
+        }
+    ],
+    "META": [
+        {
+            "symbol": "META",
+            "return": -0.62
+        },
+        {
+            "symbol": "META",
+            "return": 1.93
+        },
+        {
+            "symbol": "META",
+            "return": 2.01
+        },
+        {
+            "symbol": "META",
+            "return": 3.11
+        },
+        {
+            "symbol": "META",
+            "return": 10.08
+        },
+        {
+            "symbol": "META",
+            "return": 8.42
+        },
+        {
+            "symbol": "META",
+            "return": 6.2
+        },
+        {
+            "symbol": "META",
+            "return": 7.04
+        },
+        {
+            "symbol": "META",
+            "return": -0.92
+        },
+        {
+            "symbol": "META",
+            "return": 0.76
+        },
+        {
+            "symbol": "META",
+            "return": 4.96
+        },
+        {
+            "symbol": "META",
+            "return": 20.19
+        },
+        {
+            "symbol": "META",
+            "return": 19.54
+        },
+        {
+            "symbol": "META",
+            "return": 3.04
+        },
+        {
+            "symbol": "META",
+            "return": 3.63
+        },
+        {
+            "symbol": "META",
+            "return": 5.31
+        },
+        {
+            "symbol": "META",
+            "return": 3.88
+        },
+        {
+            "symbol": "META",
+            "return": 5.37
+        },
+        {
+            "symbol": "META",
+            "return": 5.36
+        },
+        {
+            "symbol": "META",
+            "return": 0.72
+        },
+        {
+            "symbol": "META",
+            "return": -0.77
+        },
+        {
+            "symbol": "META",
+            "return": 5.42
+        },
+        {
+            "symbol": "META",
+            "return": -2.48
+        },
+        {
+            "symbol": "META",
+            "return": -7.23
+        },
+        {
+            "symbol": "META",
+            "return": -13.4
+        },
+        {
+            "symbol": "META",
+            "return": -13.52
+        },
+        {
+            "symbol": "META",
+            "return": -11.13
+        },
+        {
+            "symbol": "META",
+            "return": -5.62
+        },
+        {
+            "symbol": "META",
+            "return": 8.18
+        },
+        {
+            "symbol": "META",
+            "return": 9.64
+        },
+        {
+            "symbol": "META",
+            "return": 4.72
+        },
+        {
+            "symbol": "META",
+            "return": -13.73
+        },
+        {
+            "symbol": "META",
+            "return": -6.14
+        },
+        {
+            "symbol": "META",
+            "return": -5.43
+        },
+        {
+            "symbol": "META",
+            "return": 2.38
+        },
+        {
+            "symbol": "META",
+            "return": 11.18
+        },
+        {
+            "symbol": "META",
+            "return": 9.46
+        },
+        {
+            "symbol": "META",
+            "return": -5.95
+        },
+        {
+            "symbol": "META",
+            "return": 4.9
+        },
+        {
+            "symbol": "META",
+            "return": 11.92
+        },
+        {
+            "symbol": "META",
+            "return": 11.7
+        },
+        {
+            "symbol": "META",
+            "return": 11.14
+        },
+        {
+            "symbol": "META",
+            "return": 8.25
+        },
+        {
+            "symbol": "META",
+            "return": 7.34
+        },
+        {
+            "symbol": "META",
+            "return": 6.48
+        },
+        {
+            "symbol": "META",
+            "return": 3.14
+        },
+        {
+            "symbol": "META",
+            "return": -1.0
+        },
+        {
+            "symbol": "META",
+            "return": -1.65
+        },
+        {
+            "symbol": "META",
+            "return": -1.12
+        },
+        {
+            "symbol": "META",
+            "return": 10.69
+        },
+        {
+            "symbol": "META",
+            "return": 9.59
+        },
+        {
+            "symbol": "META",
+            "return": 5.38
+        },
+        {
+            "symbol": "META",
+            "return": -2.16
+        },
+        {
+            "symbol": "META",
+            "return": -1.79
+        },
+        {
+            "symbol": "META",
+            "return": -4.56
+        },
+        {
+            "symbol": "META",
+            "return": -6.2
+        },
+        {
+            "symbol": "META",
+            "return": 2.26
+        },
+        {
+            "symbol": "META",
+            "return": 1.96
+        },
+        {
+            "symbol": "META",
+            "return": 3.0
+        },
+        {
+            "symbol": "META",
+            "return": 13.84
+        },
+        {
+            "symbol": "META",
+            "return": 13.05
+        },
+        {
+            "symbol": "META",
+            "return": -1.42
+        },
+        {
+            "symbol": "META",
+            "return": -6.49
+        },
+        {
+            "symbol": "META",
+            "return": -11.08
+        },
+        {
+            "symbol": "META",
+            "return": -6.72
+        },
+        {
+            "symbol": "META",
+            "return": -5.75
+        },
+        {
+            "symbol": "META",
+            "return": -1.9
+        },
+        {
+            "symbol": "META",
+            "return": 4.77
+        },
+        {
+            "symbol": "META",
+            "return": 4.64
+        },
+        {
+            "symbol": "META",
+            "return": -0.25
+        },
+        {
+            "symbol": "META",
+            "return": 2.34
+        },
+        {
+            "symbol": "META",
+            "return": -5.93
+        },
+        {
+            "symbol": "META",
+            "return": -1.92
+        },
+        {
+            "symbol": "META",
+            "return": -5.6
+        },
+        {
+            "symbol": "META",
+            "return": -2.06
+        },
+        {
+            "symbol": "META",
+            "return": -2.06
+        },
+        {
+            "symbol": "META",
+            "return": 2.83
+        },
+        {
+            "symbol": "META",
+            "return": 0.07
+        },
+        {
+            "symbol": "META",
+            "return": -9.56
+        },
+        {
+            "symbol": "META",
+            "return": -2.1
+        }
+    ],
+    "GOOGL": [
+        {
+            "symbol": "GOOGL",
+            "return": -7.45
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -4.79
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -4.58
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 6.13
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 6.46
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 2.3
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -5.1
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 9.01
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 7.56
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 5.28
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 3.85
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 3.76
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 4.29
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -6.51
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -5.54
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 1.19
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 0.3
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 3.79
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 2.29
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 0.7
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 10.58
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 14.81
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 10.98
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 1.8
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 4.43
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 0.76
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -0.12
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -5.11
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -7.33
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -6.23
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -6.99
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -7.36
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 9.74
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 7.71
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 4.27
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 4.37
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 4.42
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 15.04
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 15.57
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 5.02
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 3.33
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 3.24
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 9.87
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 9.38
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 11.94
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 11.01
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 7.28
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 8.91
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 0.46
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 2.43
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 2.99
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 7.47
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 13.92
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -2.29
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -2.05
+        },
+        {
+            "symbol": "GOOGL",
+            "return": -7.11
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 0.35
+        }
+    ],
+    "AVGO": [
+        {
+            "symbol": "AVGO",
+            "return": 7.24
+        },
+        {
+            "symbol": "AVGO",
+            "return": 12.56
+        },
+        {
+            "symbol": "AVGO",
+            "return": -5.5
+        },
+        {
+            "symbol": "AVGO",
+            "return": -8.29
+        },
+        {
+            "symbol": "AVGO",
+            "return": -3.53
+        },
+        {
+            "symbol": "AVGO",
+            "return": 21.48
+        },
+        {
+            "symbol": "AVGO",
+            "return": -7.28
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.52
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.97
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.73
+        },
+        {
+            "symbol": "AVGO",
+            "return": 0.39
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.81
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.7
+        },
+        {
+            "symbol": "AVGO",
+            "return": 2.0
+        },
+        {
+            "symbol": "AVGO",
+            "return": 2.47
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.03
+        },
+        {
+            "symbol": "AVGO",
+            "return": 9.47
+        },
+        {
+            "symbol": "AVGO",
+            "return": 0.95
+        },
+        {
+            "symbol": "AVGO",
+            "return": 4.97
+        },
+        {
+            "symbol": "AVGO",
+            "return": -1.28
+        },
+        {
+            "symbol": "AVGO",
+            "return": -6.37
+        },
+        {
+            "symbol": "AVGO",
+            "return": 0.0
+        },
+        {
+            "symbol": "AVGO",
+            "return": -3.1
+        },
+        {
+            "symbol": "AVGO",
+            "return": -1.62
+        },
+        {
+            "symbol": "AVGO",
+            "return": 7.01
+        },
+        {
+            "symbol": "AVGO",
+            "return": 4.32
+        },
+        {
+            "symbol": "AVGO",
+            "return": -0.84
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.13
+        },
+        {
+            "symbol": "AVGO",
+            "return": 9.17
+        },
+        {
+            "symbol": "AVGO",
+            "return": 0.65
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.44
+        },
+        {
+            "symbol": "AVGO",
+            "return": 23.09
+        },
+        {
+            "symbol": "AVGO",
+            "return": 35.44
+        },
+        {
+            "symbol": "AVGO",
+            "return": 10.37
+        },
+        {
+            "symbol": "AVGO",
+            "return": 7.16
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.23
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.86
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.37
+        },
+        {
+            "symbol": "AVGO",
+            "return": -6.69
+        },
+        {
+            "symbol": "AVGO",
+            "return": -4.67
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.85
+        },
+        {
+            "symbol": "AVGO",
+            "return": -6.48
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.48
+        },
+        {
+            "symbol": "AVGO",
+            "return": 7.27
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.15
+        },
+        {
+            "symbol": "AVGO",
+            "return": -1.73
+        },
+        {
+            "symbol": "AVGO",
+            "return": -2.42
+        },
+        {
+            "symbol": "AVGO",
+            "return": -10.81
+        },
+        {
+            "symbol": "AVGO",
+            "return": -7.88
+        },
+        {
+            "symbol": "AVGO",
+            "return": -8.01
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.5
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.15
+        },
+        {
+            "symbol": "AVGO",
+            "return": 4.42
+        },
+        {
+            "symbol": "AVGO",
+            "return": 8.96
+        },
+        {
+            "symbol": "AVGO",
+            "return": 13.15
+        },
+        {
+            "symbol": "AVGO",
+            "return": 42.87
+        },
+        {
+            "symbol": "AVGO",
+            "return": 28.07
+        },
+        {
+            "symbol": "AVGO",
+            "return": 30.2
+        },
+        {
+            "symbol": "AVGO",
+            "return": -8.3
+        },
+        {
+            "symbol": "AVGO",
+            "return": -7.44
+        },
+        {
+            "symbol": "AVGO",
+            "return": -3.7
+        },
+        {
+            "symbol": "AVGO",
+            "return": -8.1
+        },
+        {
+            "symbol": "AVGO",
+            "return": 14.54
+        },
+        {
+            "symbol": "AVGO",
+            "return": -2.27
+        },
+        {
+            "symbol": "AVGO",
+            "return": 4.24
+        },
+        {
+            "symbol": "AVGO",
+            "return": 4.05
+        },
+        {
+            "symbol": "AVGO",
+            "return": 13.15
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.81
+        },
+        {
+            "symbol": "AVGO",
+            "return": 5.63
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.36
+        },
+        {
+            "symbol": "AVGO",
+            "return": 8.23
+        },
+        {
+            "symbol": "AVGO",
+            "return": 8.44
+        },
+        {
+            "symbol": "AVGO",
+            "return": 7.08
+        },
+        {
+            "symbol": "AVGO",
+            "return": 8.49
+        },
+        {
+            "symbol": "AVGO",
+            "return": 2.32
+        },
+        {
+            "symbol": "AVGO",
+            "return": 1.92
+        },
+        {
+            "symbol": "AVGO",
+            "return": 6.07
+        },
+        {
+            "symbol": "AVGO",
+            "return": 3.3
+        },
+        {
+            "symbol": "AVGO",
+            "return": 2.14
+        },
+        {
+            "symbol": "AVGO",
+            "return": 2.7
+        },
+        {
+            "symbol": "AVGO",
+            "return": 0.68
+        },
+        {
+            "symbol": "AVGO",
+            "return": -3.48
+        },
+        {
+            "symbol": "AVGO",
+            "return": -4.66
+        },
+        {
+            "symbol": "AVGO",
+            "return": -4.74
+        },
+        {
+            "symbol": "AVGO",
+            "return": -2.86
+        },
+        {
+            "symbol": "AVGO",
+            "return": -0.83
+        },
+        {
+            "symbol": "AVGO",
+            "return": 17.57
+        },
+        {
+            "symbol": "AVGO",
+            "return": 16.59
+        },
+        {
+            "symbol": "AVGO",
+            "return": 14.48
+        },
+        {
+            "symbol": "AVGO",
+            "return": -0.97
+        },
+        {
+            "symbol": "AVGO",
+            "return": 8.38
+        },
+        {
+            "symbol": "AVGO",
+            "return": 9.86
+        },
+        {
+            "symbol": "AVGO",
+            "return": 5.81
+        },
+        {
+            "symbol": "AVGO",
+            "return": 5.49
+        },
+        {
+            "symbol": "AVGO",
+            "return": -1.01
+        },
+        {
+            "symbol": "AVGO",
+            "return": -5.63
+        },
+        {
+            "symbol": "AVGO",
+            "return": -7.35
+        },
+        {
+            "symbol": "AVGO",
+            "return": -2.47
+        },
+        {
+            "symbol": "AVGO",
+            "return": -2.64
+        },
+        {
+            "symbol": "AVGO",
+            "return": 12.74
+        },
+        {
+            "symbol": "AVGO",
+            "return": -13.86
+        }
+    ],
+    "TSLA": [
+        {
+            "symbol": "TSLA",
+            "return": 1.32
+        },
+        {
+            "symbol": "TSLA",
+            "return": -0.76
+        },
+        {
+            "symbol": "TSLA",
+            "return": 1.55
+        },
+        {
+            "symbol": "TSLA",
+            "return": 6.14
+        },
+        {
+            "symbol": "TSLA",
+            "return": 7.75
+        },
+        {
+            "symbol": "TSLA",
+            "return": 3.25
+        },
+        {
+            "symbol": "TSLA",
+            "return": -5.41
+        },
+        {
+            "symbol": "TSLA",
+            "return": -3.9
+        },
+        {
+            "symbol": "TSLA",
+            "return": -5.52
+        },
+        {
+            "symbol": "TSLA",
+            "return": -13.09
+        },
+        {
+            "symbol": "TSLA",
+            "return": -13.54
+        },
+        {
+            "symbol": "TSLA",
+            "return": -13.23
+        },
+        {
+            "symbol": "TSLA",
+            "return": -11.14
+        },
+        {
+            "symbol": "TSLA",
+            "return": -10.82
+        },
+        {
+            "symbol": "TSLA",
+            "return": -16.23
+        },
+        {
+            "symbol": "TSLA",
+            "return": -14.9
+        },
+        {
+            "symbol": "TSLA",
+            "return": -8.21
+        },
+        {
+            "symbol": "TSLA",
+            "return": 9.09
+        },
+        {
+            "symbol": "TSLA",
+            "return": 26.58
+        },
+        {
+            "symbol": "TSLA",
+            "return": 10.47
+        },
+        {
+            "symbol": "TSLA",
+            "return": 3.24
+        },
+        {
+            "symbol": "TSLA",
+            "return": -4.31
+        },
+        {
+            "symbol": "TSLA",
+            "return": -14.92
+        },
+        {
+            "symbol": "TSLA",
+            "return": -8.11
+        },
+        {
+            "symbol": "TSLA",
+            "return": -3.01
+        },
+        {
+            "symbol": "TSLA",
+            "return": -0.82
+        },
+        {
+            "symbol": "TSLA",
+            "return": -8.2
+        },
+        {
+            "symbol": "TSLA",
+            "return": -3.8
+        },
+        {
+            "symbol": "TSLA",
+            "return": 3.14
+        },
+        {
+            "symbol": "TSLA",
+            "return": -1.1
+        },
+        {
+            "symbol": "TSLA",
+            "return": 22.81
+        },
+        {
+            "symbol": "TSLA",
+            "return": 25.35
+        },
+        {
+            "symbol": "TSLA",
+            "return": 27.32
+        },
+        {
+            "symbol": "TSLA",
+            "return": 4.59
+        },
+        {
+            "symbol": "TSLA",
+            "return": 0.88
+        },
+        {
+            "symbol": "TSLA",
+            "return": 4.38
+        },
+        {
+            "symbol": "TSLA",
+            "return": 1.7
+        },
+        {
+            "symbol": "TSLA",
+            "return": -0.93
+        },
+        {
+            "symbol": "TSLA",
+            "return": 2.87
+        },
+        {
+            "symbol": "TSLA",
+            "return": -6.11
+        },
+        {
+            "symbol": "TSLA",
+            "return": -5.29
+        },
+        {
+            "symbol": "TSLA",
+            "return": 5.26
+        },
+        {
+            "symbol": "TSLA",
+            "return": -11.44
+        },
+        {
+            "symbol": "TSLA",
+            "return": -12.69
+        },
+        {
+            "symbol": "TSLA",
+            "return": -9.68
+        },
+        {
+            "symbol": "TSLA",
+            "return": -12.57
+        }
+    ],
+    "COST": [
+        {
+            "symbol": "COST",
+            "return": 6.76
+        },
+        {
+            "symbol": "COST",
+            "return": 7.26
+        },
+        {
+            "symbol": "COST",
+            "return": 0.89
+        },
+        {
+            "symbol": "COST",
+            "return": -2.35
+        },
+        {
+            "symbol": "COST",
+            "return": 0.29
+        },
+        {
+            "symbol": "COST",
+            "return": 1.57
+        },
+        {
+            "symbol": "COST",
+            "return": 0.16
+        }
+    ],
+    "PEP": [],
+    "XRO.AX": [
+        {
+            "symbol": "XRO.AX",
+            "return": -7.8
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -6.5
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -4.77
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -9.84
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -12.83
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -1.01
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 3.04
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 7.31
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 14.36
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 11.46
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.88
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.83
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 1.44
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -2.99
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -1.95
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -10.11
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -1.28
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 7.49
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -3.8
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -2.31
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 3.44
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 3.06
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 12.79
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 4.21
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -11.44
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -9.44
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -9.63
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.97
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.67
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.33
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -7.31
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -1.92
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": -0.22
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 5.89
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 7.4
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 9.58
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 6.3
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 3.03
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 2.55
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 2.4
+        },
+        {
+            "symbol": "XRO.AX",
+            "return": 1.04
+        }
+    ],
+    "PME.AX": [
+        {
+            "symbol": "PME.AX",
+            "return": 12.87
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 5.91
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.86
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 0.76
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.06
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 5.49
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -12.42
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 12.15
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.28
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -2.86
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -1.64
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -2.35
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.11
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.7
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -0.06
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.01
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 2.75
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.05
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -6.22
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -1.36
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -1.39
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.51
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 0.07
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 6.88
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -9.65
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 6.79
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 18.27
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 12.34
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 0.02
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 10.33
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.1
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 5.09
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.49
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 5.52
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 8.32
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 4.5
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -0.5
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.41
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 13.42
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 19.33
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 24.87
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.38
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 7.15
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 8.54
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 9.85
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 4.85
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 8.52
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 2.67
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 4.66
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -5.24
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -7.4
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -7.26
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -7.27
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 12.08
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 9.07
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 5.05
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.11
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 0.17
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -1.04
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -2.76
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -0.49
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.73
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.9
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 13.83
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 11.2
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 4.47
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.11
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -0.47
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -2.6
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -4.27
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -3.64
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -0.02
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -7.07
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -1.93
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -3.79
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -7.34
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.4
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 0.83
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 2.54
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 3.31
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -6.2
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -3.59
+        },
+        {
+            "symbol": "PME.AX",
+            "return": 1.25
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -6.9
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -2.13
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -10.35
+        },
+        {
+            "symbol": "PME.AX",
+            "return": -9.49
+        }
+    ],
+    "WBT.AX": [],
+    "NST.AX": [
+        {
+            "symbol": "NST.AX",
+            "return": -1.58
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 6.03
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.24
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -1.55
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 14.21
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 11.18
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -4.79
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -4.92
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 11.01
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 5.25
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -1.9
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -4.4
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -6.34
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.73
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 2.51
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -2.31
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 2.46
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.8
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -7.3
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -5.11
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.2
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.02
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -4.46
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 0.72
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -0.49
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -0.21
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 5.23
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 9.86
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 6.43
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 6.08
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 3.85
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -7.49
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -8.16
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 3.59
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 3.81
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 2.09
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -4.56
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -5.87
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -6.73
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -8.93
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -7.86
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -1.99
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.03
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -0.23
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -2.23
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.75
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -0.66
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 5.72
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 2.17
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 3.51
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.37
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -12.06
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -10.74
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -7.9
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -6.67
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 12.69
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 3.8
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -10.48
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -15.49
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -15.09
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -11.35
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -12.52
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 5.05
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 5.29
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 14.34
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.58
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 10.53
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -5.53
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 1.49
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 4.65
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.54
+        },
+        {
+            "symbol": "NST.AX",
+            "return": 8.96
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -1.58
+        },
+        {
+            "symbol": "NST.AX",
+            "return": -3.58
+        }
+    ],
+    "MIN.AX": [
+        {
+            "symbol": "MIN.AX",
+            "return": -0.35
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 3.57
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 4.64
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 2.25
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 3.09
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 6.58
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 12.8
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 5.88
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 1.96
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 5.27
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 7.54
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 7.33
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 3.03
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": -5.98
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": -3.13
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": -1.74
+        },
+        {
+            "symbol": "MIN.AX",
+            "return": 6.45
+        }
+    ]
+}

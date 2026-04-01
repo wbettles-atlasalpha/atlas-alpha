@@ -1,0 +1,458 @@
+{
+    "AAPL": [
+        {
+            "symbol": "AAPL",
+            "date": "2024-01-02",
+            "invalidated": false,
+            "return": -1.59
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2024-04-11",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-05-02",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AAPL",
+            "date": "2025-09-03",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "MSFT": [
+        {
+            "symbol": "MSFT",
+            "date": "2024-02-29",
+            "invalidated": false,
+            "return": 2.8
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2024-08-30",
+            "invalidated": false,
+            "return": 3.4
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 14.59
+        },
+        {
+            "symbol": "MSFT",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 6.71
+        }
+    ],
+    "NVDA": [
+        {
+            "symbol": "NVDA",
+            "date": "2024-06-21",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ],
+    "AMZN": [
+        {
+            "symbol": "AMZN",
+            "date": "2024-05-15",
+            "invalidated": false,
+            "return": -3.59
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-05-02",
+            "invalidated": false,
+            "return": 8.22
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-05-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMZN",
+            "date": "2025-08-14",
+            "invalidated": false,
+            "return": 0.27
+        }
+    ],
+    "META": [
+        {
+            "symbol": "META",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 1.84
+        },
+        {
+            "symbol": "META",
+            "date": "2025-02-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 20.1
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 12.53
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": 0.45
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 5.46
+        },
+        {
+            "symbol": "META",
+            "date": "2025-08-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-12-04",
+            "invalidated": false,
+            "return": 0.52
+        }
+    ],
+    "GOOGL": [
+        {
+            "symbol": "GOOGL",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": -0.45
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-02-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-08-14",
+            "invalidated": false,
+            "return": 1.55
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2024-09-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-04-25",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-05-07",
+            "invalidated": false,
+            "return": 11.35
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-06-20",
+            "invalidated": false,
+            "return": 6.09
+        },
+        {
+            "symbol": "GOOGL",
+            "date": "2025-11-17",
+            "invalidated": false,
+            "return": 10.8
+        }
+    ],
+    "BHP.AX": [
+        {
+            "symbol": "BHP.AX",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 4.21
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-01-16",
+            "invalidated": false,
+            "return": 1.66
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-02-15",
+            "invalidated": false,
+            "return": -2.75
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-07-17",
+            "invalidated": false,
+            "return": -0.94
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-10-18",
+            "invalidated": false,
+            "return": 1.71
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-10-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-11-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-11-11",
+            "invalidated": false,
+            "return": -3.44
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-12-10",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2024-12-19",
+            "invalidated": false,
+            "return": -2.47
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-01-06",
+            "invalidated": false,
+            "return": 3.23
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-09-19",
+            "invalidated": false,
+            "return": 6.16
+        },
+        {
+            "symbol": "BHP.AX",
+            "date": "2025-10-09",
+            "invalidated": false,
+            "return": -0.23
+        }
+    ],
+    "CBA.AX": [
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 4.64
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-12-14",
+            "invalidated": false,
+            "return": 3.73
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2023-12-15",
+            "invalidated": false,
+            "return": 1.87
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-02-14",
+            "invalidated": false,
+            "return": 3.56
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-05-07",
+            "invalidated": false,
+            "return": 2.34
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-09-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2024-10-17",
+            "invalidated": false,
+            "return": 0.53
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-01-16",
+            "invalidated": false,
+            "return": 3.09
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-05-16",
+            "invalidated": false,
+            "return": 3.71
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 1.97
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-07-17",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-07-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-08-13",
+            "invalidated": false,
+            "return": 1.97
+        },
+        {
+            "symbol": "CBA.AX",
+            "date": "2025-10-09",
+            "invalidated": false,
+            "return": 2.6
+        }
+    ],
+    "CSL.AX": [
+        {
+            "symbol": "CSL.AX",
+            "date": "2023-11-30",
+            "invalidated": false,
+            "return": 5.54
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-02-29",
+            "invalidated": false,
+            "return": -0.62
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-03-15",
+            "invalidated": false,
+            "return": 1.95
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-04-16",
+            "invalidated": false,
+            "return": -0.08
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-05-31",
+            "invalidated": false,
+            "return": 3.11
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-08-13",
+            "invalidated": false,
+            "return": 4.46
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-08-30",
+            "invalidated": false,
+            "return": -1.54
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2024-12-19",
+            "invalidated": false,
+            "return": 2.48
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-05-07",
+            "invalidated": false,
+            "return": 0.92
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -3.19
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-08-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CSL.AX",
+            "date": "2025-10-28",
+            "invalidated": true,
+            "return": -5.0
+        }
+    ]
+}

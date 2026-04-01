@@ -1,0 +1,68 @@
+{
+    "analysis": {
+        "avg_pre_vol_ratio": 0.986,
+        "avg_pre_atr_ratio": 0.033
+    },
+    "top_examples": [
+        {
+            "symbol": "INTC",
+            "return": 29.3,
+            "pre_vol_ratio": 0.777,
+            "pre_atr_ratio": 0.0485
+        },
+        {
+            "symbol": "INTC",
+            "return": 26.84,
+            "pre_vol_ratio": 0.852,
+            "pre_atr_ratio": 0.0487
+        },
+        {
+            "symbol": "AVGO",
+            "return": 18.34,
+            "pre_vol_ratio": 1.014,
+            "pre_atr_ratio": 0.04
+        },
+        {
+            "symbol": "INTC",
+            "return": 18.15,
+            "pre_vol_ratio": 0.805,
+            "pre_atr_ratio": 0.0426
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 17.01,
+            "pre_vol_ratio": 1.037,
+            "pre_atr_ratio": 0.0264
+        },
+        {
+            "symbol": "AVGO",
+            "return": 16.03,
+            "pre_vol_ratio": 1.053,
+            "pre_atr_ratio": 0.0399
+        },
+        {
+            "symbol": "INTC",
+            "return": 15.57,
+            "pre_vol_ratio": 0.985,
+            "pre_atr_ratio": 0.0463
+        },
+        {
+            "symbol": "AMZN",
+            "return": 14.89,
+            "pre_vol_ratio": 1.024,
+            "pre_atr_ratio": 0.0235
+        },
+        {
+            "symbol": "GOOGL",
+            "return": 14.36,
+            "pre_vol_ratio": 1.038,
+            "pre_atr_ratio": 0.0257
+        },
+        {
+            "symbol": "TSLA",
+            "return": 14.23,
+            "pre_vol_ratio": 1.017,
+            "pre_atr_ratio": 0.0546
+        }
+    ]
+}

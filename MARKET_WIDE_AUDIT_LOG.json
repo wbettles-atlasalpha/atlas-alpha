@@ -1,0 +1,1304 @@
+{
+    "Nasdaq": [
+        {
+            "symbol": "AMD",
+            "date": "2025-05-06",
+            "invalidated": false,
+            "return": 15.1
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-07-15",
+            "invalidated": false,
+            "return": 14.03
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-09-05",
+            "invalidated": false,
+            "return": 4.14
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-02",
+            "invalidated": false,
+            "return": 38.2
+        },
+        {
+            "symbol": "AMD",
+            "date": "2025-10-06",
+            "invalidated": false,
+            "return": 18.09
+        },
+        {
+            "symbol": "AMD",
+            "date": "2026-01-02",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMD",
+            "date": "2026-02-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-02-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 20.1
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 12.53
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": 0.45
+        },
+        {
+            "symbol": "META",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 5.46
+        },
+        {
+            "symbol": "META",
+            "date": "2025-08-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "META",
+            "date": "2025-12-04",
+            "invalidated": false,
+            "return": 0.52
+        },
+        {
+            "symbol": "ASML",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ASML",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": 0.88
+        },
+        {
+            "symbol": "ASML",
+            "date": "2025-07-16",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ASML",
+            "date": "2025-09-02",
+            "invalidated": false,
+            "return": 21.02
+        },
+        {
+            "symbol": "ASML",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 16.74
+        },
+        {
+            "symbol": "ASML",
+            "date": "2026-01-05",
+            "invalidated": false,
+            "return": 7.97
+        },
+        {
+            "symbol": "ASML",
+            "date": "2026-02-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2025-05-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2025-07-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2025-10-29",
+            "invalidated": false,
+            "return": -0.24
+        },
+        {
+            "symbol": "ADBE",
+            "date": "2026-01-02",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-05-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-06-27",
+            "invalidated": false,
+            "return": 9.33
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-07-29",
+            "invalidated": false,
+            "return": -1.57
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-08-20",
+            "invalidated": false,
+            "return": 0.14
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-09-10",
+            "invalidated": false,
+            "return": 20.71
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2025-12-01",
+            "invalidated": false,
+            "return": 3.74
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2026-01-05",
+            "invalidated": false,
+            "return": 3.4
+        },
+        {
+            "symbol": "SNPS",
+            "date": "2026-02-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2025-04-28",
+            "invalidated": false,
+            "return": 9.11
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2025-05-28",
+            "invalidated": false,
+            "return": 6.44
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2025-10-10",
+            "invalidated": false,
+            "return": 5.54
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2025-12-16",
+            "invalidated": false,
+            "return": -2.18
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2026-01-05",
+            "invalidated": false,
+            "return": 1.92
+        },
+        {
+            "symbol": "CDNS",
+            "date": "2026-01-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PANW",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PANW",
+            "date": "2025-07-10",
+            "invalidated": false,
+            "return": 4.73
+        },
+        {
+            "symbol": "PANW",
+            "date": "2025-07-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PANW",
+            "date": "2025-07-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PANW",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 4.62
+        },
+        {
+            "symbol": "PANW",
+            "date": "2026-01-05",
+            "invalidated": false,
+            "return": 1.07
+        },
+        {
+            "symbol": "FTNT",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -0.93
+        },
+        {
+            "symbol": "FTNT",
+            "date": "2025-06-20",
+            "invalidated": false,
+            "return": 6.81
+        },
+        {
+            "symbol": "FTNT",
+            "date": "2025-07-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "FTNT",
+            "date": "2025-09-19",
+            "invalidated": false,
+            "return": 1.88
+        },
+        {
+            "symbol": "FTNT",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": -3.21
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-03-10",
+            "invalidated": false,
+            "return": 8.38
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 10.18
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 2.18
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-07-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-08-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-10-01",
+            "invalidated": false,
+            "return": 4.79
+        },
+        {
+            "symbol": "DDOG",
+            "date": "2025-12-05",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-01-07",
+            "invalidated": false,
+            "return": 4.79
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-07-10",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-08-01",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-08-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZS",
+            "date": "2025-12-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MDB",
+            "date": "2025-01-27",
+            "invalidated": false,
+            "return": 8.23
+        },
+        {
+            "symbol": "MDB",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MDB",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": -1.39
+        },
+        {
+            "symbol": "MDB",
+            "date": "2025-10-01",
+            "invalidated": false,
+            "return": -1.15
+        },
+        {
+            "symbol": "MDB",
+            "date": "2025-10-30",
+            "invalidated": false,
+            "return": 1.04
+        },
+        {
+            "symbol": "MDB",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 0.03
+        },
+        {
+            "symbol": "MDB",
+            "date": "2026-01-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2025-04-04",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2025-05-21",
+            "invalidated": false,
+            "return": 6.49
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2025-07-10",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2025-08-27",
+            "invalidated": false,
+            "return": 2.55
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2025-09-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 0.07
+        },
+        {
+            "symbol": "CRWD",
+            "date": "2026-01-29",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NET",
+            "date": "2025-03-25",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NET",
+            "date": "2025-06-05",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NET",
+            "date": "2025-06-27",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NET",
+            "date": "2026-01-06",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-02-06",
+            "invalidated": false,
+            "return": -1.1
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 3.34
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-08-05",
+            "invalidated": false,
+            "return": 19.79
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-08-06",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-09-10",
+            "invalidated": false,
+            "return": 9.07
+        },
+        {
+            "symbol": "ZETA",
+            "date": "2025-12-15",
+            "invalidated": false,
+            "return": 18.93
+        }
+    ],
+    "S&P500": [
+        {
+            "symbol": "VRTX",
+            "date": "2025-02-28",
+            "invalidated": false,
+            "return": 5.21
+        },
+        {
+            "symbol": "VRTX",
+            "date": "2025-05-06",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "VRTX",
+            "date": "2026-01-06",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "VRSK",
+            "date": "2025-07-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "VRSK",
+            "date": "2025-10-16",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "VRSK",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": -0.28
+        },
+        {
+            "symbol": "ANET",
+            "date": "2025-02-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "ANET",
+            "date": "2025-05-29",
+            "invalidated": false,
+            "return": 10.88
+        },
+        {
+            "symbol": "ANET",
+            "date": "2025-07-09",
+            "invalidated": false,
+            "return": 6.36
+        },
+        {
+            "symbol": "ANET",
+            "date": "2026-01-05",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PAYX",
+            "date": "2025-01-15",
+            "invalidated": false,
+            "return": 2.62
+        },
+        {
+            "symbol": "PAYX",
+            "date": "2025-03-21",
+            "invalidated": false,
+            "return": 0.21
+        },
+        {
+            "symbol": "PAYX",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": 4.8
+        },
+        {
+            "symbol": "PAYX",
+            "date": "2025-10-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-04-04",
+            "invalidated": false,
+            "return": -0.99
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -2.52
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-06-16",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-07-10",
+            "invalidated": false,
+            "return": 0.0
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-07-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "CTSH",
+            "date": "2025-11-21",
+            "invalidated": false,
+            "return": 6.23
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-04-03",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 8.54
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-07-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-10-28",
+            "invalidated": false,
+            "return": 5.53
+        },
+        {
+            "symbol": "FTV",
+            "date": "2025-12-08",
+            "invalidated": false,
+            "return": 2.86
+        },
+        {
+            "symbol": "FTV",
+            "date": "2026-01-05",
+            "invalidated": false,
+            "return": -2.06
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -0.01
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-07-09",
+            "invalidated": false,
+            "return": 3.16
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-08-20",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-08-28",
+            "invalidated": false,
+            "return": -1.84
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-10-14",
+            "invalidated": false,
+            "return": 7.79
+        },
+        {
+            "symbol": "MTD",
+            "date": "2025-11-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMP",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMP",
+            "date": "2025-03-04",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMP",
+            "date": "2025-04-23",
+            "invalidated": false,
+            "return": 2.23
+        },
+        {
+            "symbol": "AMP",
+            "date": "2025-05-12",
+            "invalidated": false,
+            "return": 0.34
+        },
+        {
+            "symbol": "AMP",
+            "date": "2025-09-30",
+            "invalidated": false,
+            "return": -0.96
+        },
+        {
+            "symbol": "JKHY",
+            "date": "2025-07-15",
+            "invalidated": false,
+            "return": 0.24
+        },
+        {
+            "symbol": "JKHY",
+            "date": "2025-10-29",
+            "invalidated": false,
+            "return": 11.53
+        },
+        {
+            "symbol": "JKHY",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 6.71
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-02-12",
+            "invalidated": false,
+            "return": 4.7
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-05-01",
+            "invalidated": false,
+            "return": 21.93
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-05-02",
+            "invalidated": false,
+            "return": 4.73
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-07-17",
+            "invalidated": false,
+            "return": -3.96
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-08-25",
+            "invalidated": false,
+            "return": 3.21
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-10-28",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "DXCM",
+            "date": "2025-12-10",
+            "invalidated": false,
+            "return": -0.21
+        }
+    ],
+    "ASX": [
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-02-20",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-05-15",
+            "invalidated": false,
+            "return": 2.03
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 3.53
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-06-20",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-08-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-09-19",
+            "invalidated": false,
+            "return": -1.01
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2025-12-18",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "XRO.AX",
+            "date": "2026-02-27",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-01-16",
+            "invalidated": false,
+            "return": 10.22
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-03-20",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-05-07",
+            "invalidated": false,
+            "return": 19.26
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-05-22",
+            "invalidated": false,
+            "return": 2.21
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-05-30",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-09-05",
+            "invalidated": false,
+            "return": 5.05
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-10-07",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2025-10-22",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "PME.AX",
+            "date": "2026-01-07",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "WBT.AX",
+            "date": "2025-02-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "WBT.AX",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -1.43
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-06-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-07-07",
+            "invalidated": false,
+            "return": -3.1
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-07-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-08-04",
+            "invalidated": false,
+            "return": 13.12
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-08-22",
+            "invalidated": false,
+            "return": 12.08
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-09-19",
+            "invalidated": false,
+            "return": 17.87
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2025-10-22",
+            "invalidated": false,
+            "return": 1.02
+        },
+        {
+            "symbol": "NST.AX",
+            "date": "2026-01-02",
+            "invalidated": false,
+            "return": 9.82
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-01-07",
+            "invalidated": false,
+            "return": 6.97
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-08-11",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-08-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-09-10",
+            "invalidated": false,
+            "return": 13.55
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-09-19",
+            "invalidated": false,
+            "return": 4.48
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-10-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2025-11-12",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "MIN.AX",
+            "date": "2026-01-08",
+            "invalidated": false,
+            "return": 9.63
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-01-16",
+            "invalidated": false,
+            "return": -1.76
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-04-08",
+            "invalidated": false,
+            "return": 2.28
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-04-28",
+            "invalidated": false,
+            "return": 1.42
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-05-09",
+            "invalidated": false,
+            "return": -1.11
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": 2.33
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-08-07",
+            "invalidated": false,
+            "return": 7.42
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2025-09-03",
+            "invalidated": false,
+            "return": 1.26
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2026-01-06",
+            "invalidated": false,
+            "return": 1.39
+        },
+        {
+            "symbol": "TCL.AX",
+            "date": "2026-02-18",
+            "invalidated": false,
+            "return": 1.13
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-02-14",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-04-30",
+            "invalidated": false,
+            "return": 4.14
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-05-28",
+            "invalidated": false,
+            "return": 2.88
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-06-19",
+            "invalidated": false,
+            "return": 0.99
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-06-20",
+            "invalidated": false,
+            "return": 1.83
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-07-17",
+            "invalidated": false,
+            "return": 2.15
+        },
+        {
+            "symbol": "GMG.AX",
+            "date": "2025-09-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-01-07",
+            "invalidated": false,
+            "return": 2.17
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-01-08",
+            "invalidated": false,
+            "return": 1.43
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-03-21",
+            "invalidated": false,
+            "return": -1.37
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -2.31
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-06-19",
+            "invalidated": false,
+            "return": 6.03
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-10-03",
+            "invalidated": false,
+            "return": 1.13
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-10-30",
+            "invalidated": false,
+            "return": 7.32
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2025-11-26",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2026-01-13",
+            "invalidated": false,
+            "return": -0.37
+        },
+        {
+            "symbol": "AMC.AX",
+            "date": "2026-02-24",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-01-08",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-02-19",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-03-05",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-03-21",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "STX.AX",
+            "date": "2025-03-31",
+            "invalidated": true,
+            "return": -5.0
+        },
+        {
+            "symbol": "S32.AX",
+            "date": "2025-04-23",
+            "invalidated": false,
+            "return": 6.42
+        },
+        {
+            "symbol": "S32.AX",
+            "date": "2025-05-29",
+            "invalidated": false,
+            "return": -3.29
+        },
+        {
+            "symbol": "S32.AX",
+            "date": "2025-05-30",
+            "invalidated": false,
+            "return": -1.64
+        },
+        {
+            "symbol": "S32.AX",
+            "date": "2025-09-29",
+            "invalidated": false,
+            "return": 15.04
+        }
+    ]
+}

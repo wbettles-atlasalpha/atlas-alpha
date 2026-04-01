@@ -1,0 +1,14 @@
+{
+  "starting_capital_usd": 100000.0,
+  "current_cash_usd": 99466.28,
+  "equity_usd": 99466.28,
+  "total_value_usd": 99466.28,
+  "total_unrealized_pl_usd": 0.0,
+  "total_return_pct": -0.53,
+  "open_positions": [],
+  "closed_trades": 0,
+  "winning_trades": 0,
+  "losing_trades": 0,
+  "win_rate_pct": 0.0,
+  "last_updated": "2026-04-01T02:14:41.250889Z"
+}

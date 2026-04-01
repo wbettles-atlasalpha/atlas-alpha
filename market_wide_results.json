@@ -1,0 +1,11 @@
+{
+    "Nasdaq 100 Growth": [],
+    "ASX 200 Growth": [
+        {
+            "symbol": "VUL.AX",
+            "date": "2026-02-24",
+            "entry": 3.9,
+            "return": -10.51
+        }
+    ]
+}
